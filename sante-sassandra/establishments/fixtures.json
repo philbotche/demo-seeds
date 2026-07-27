@@ -1,0 +1,497 @@
+[
+{
+  "model": "accounts.user",
+  "pk": 10,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$jr3mKifUoJGF7tmxT64OGw$QuBD4lAyIDlmKyp7Pwc5co04A/jG5WsYmY+25pnrbxw=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "gestionnaire_demo_sante",
+    "first_name": "Demo",
+    "last_name": "Gestionnaire Santé",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-27T18:33:03.027Z",
+    "email": "gestionnaire_demo_sante@example.com",
+    "role": "manager",
+    "phone": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "establishments.establishment",
+  "pk": 19,
+  "fields": {
+    "name": "Pharmacie du Port",
+    "type": "pharmacy",
+    "status": "approved",
+    "address": "Quartier Plateau, Sassandra",
+    "phone": "+225 07 23 65 40 82",
+    "email": "contact@pharmacie-du-port.ci",
+    "description": "Pharmacie du Port est un établissement de santé reconnu à Sassandra, situé au quartier Plateau. Notre équipe s'engage à offrir des soins de qualité, un accueil chaleureux et une prise en charge rapide, dans le respect des normes sanitaires en vigueur. Nous mettons un point d'honneur à accompagner chaque patient avec professionnalisme et bienveillance, au quotidien comme en situation d'urgence. Pharmacie du Port est un établissement de santé reconnu à Sassandra, situé au quartier Plateau. Notre équipe s'engage à offrir des soins de qualité, un accueil chaleureux et une prise en charge rapide, dans le respect des normes sanitaires en vigueur. Nous mettons un point d'honneur à accompagner chaque patient avec professionnalisme et bienveillance, au quotidien comme en situation d'urgence. ",
+    "latitude": 4.948456975003279,
+    "longitude": -6.069869384939662,
+    "is_on_call": false,
+    "opening_hours": {
+      "Lundi - Vendredi": "08:00 - 20:00",
+      "Samedi": "09:00 - 18:00",
+      "Dimanche": "Garde (selon planning)"
+    },
+    "services": [
+      "Médicaments essentiels",
+      "Parapharmacie",
+      "Conseil pharmaceutique"
+    ],
+    "photo": "establishments/pharmacie-du-port-0-photo.jpg",
+    "manager": 10,
+    "created_at": "2026-07-27T18:33:04.674Z",
+    "updated_at": "2026-07-27T18:33:04.674Z"
+  }
+},
+{
+  "model": "establishments.pharmacyguard",
+  "pk": 11,
+  "fields": {
+    "establishment": 19,
+    "start_date": "2026-07-26",
+    "end_date": "2026-08-02",
+    "notes": "Garde de nuit et week-end.",
+    "created_at": "2026-07-27T18:33:04.698Z"
+  }
+},
+{
+  "model": "establishments.review",
+  "pk": 29,
+  "fields": {
+    "establishment": 19,
+    "author_name": "Paul Gnahoré",
+    "rating": 3,
+    "comment": "Service satisfaisant, quelques améliorations possibles sur la communication.",
+    "created_at": "2026-07-27T18:33:04.704Z"
+  }
+},
+{
+  "model": "establishments.review",
+  "pk": 30,
+  "fields": {
+    "establishment": 19,
+    "author_name": "Paul Gnahoré",
+    "rating": 4,
+    "comment": "Très professionnel, propreté irréprochable des locaux.",
+    "created_at": "2026-07-27T18:33:04.712Z"
+  }
+},
+{
+  "model": "establishments.establishment",
+  "pk": 20,
+  "fields": {
+    "name": "Pharmacie Sainte-Marie",
+    "type": "pharmacy",
+    "status": "approved",
+    "address": "Quartier Port, Sassandra",
+    "phone": "+225 07 59 96 38 51",
+    "email": "contact@pharmacie-sainte-marie.ci",
+    "description": "Pharmacie Sainte-Marie est un établissement de santé reconnu à Sassandra, situé au quartier Port. Notre équipe s'engage à offrir des soins de qualité, un accueil chaleureux et une prise en charge rapide, dans le respect des normes sanitaires en vigueur. Nous mettons un point d'honneur à accompagner chaque patient avec professionnalisme et bienveillance, au quotidien comme en situation d'urgence. Pharmacie Sainte-Marie est un établissement de santé reconnu à Sassandra, situé au quartier Port. Notre équipe s'engage à offrir des soins de qualité, un accueil chaleureux et une prise en charge rapide, dans le respect des normes sanitaires en vigueur. Nous mettons un point d'honneur à accompagner chaque patient avec professionnalisme et bienveillance, au quotidien comme en situation d'urgence. ",
+    "latitude": 4.931351168153767,
+    "longitude": -6.06131620670826,
+    "is_on_call": true,
+    "opening_hours": {
+      "Lundi - Vendredi": "08:00 - 20:00",
+      "Samedi": "09:00 - 18:00",
+      "Dimanche": "Garde (selon planning)"
+    },
+    "services": [
+      "Médicaments essentiels",
+      "Vaccination",
+      "Matériel médical"
+    ],
+    "photo": "establishments/pharmacie-sainte-marie-1-photo.jpg",
+    "manager": null,
+    "created_at": "2026-07-27T18:33:05.835Z",
+    "updated_at": "2026-07-27T18:33:05.835Z"
+  }
+},
+{
+  "model": "establishments.pharmacyguard",
+  "pk": 12,
+  "fields": {
+    "establishment": 20,
+    "start_date": "2026-07-26",
+    "end_date": "2026-08-02",
+    "notes": "Garde de nuit et week-end.",
+    "created_at": "2026-07-27T18:33:05.841Z"
+  }
+},
+{
+  "model": "establishments.review",
+  "pk": 31,
+  "fields": {
+    "establishment": 20,
+    "author_name": "Paul Gnahoré",
+    "rating": 5,
+    "comment": "Très professionnel, propreté irréprochable des locaux.",
+    "created_at": "2026-07-27T18:33:05.844Z"
+  }
+},
+{
+  "model": "establishments.establishment",
+  "pk": 21,
+  "fields": {
+    "name": "Pharmacie du Plateau",
+    "type": "pharmacy",
+    "status": "approved",
+    "address": "Quartier Centre-Ville, Sassandra",
+    "phone": "+225 07 87 11 85 27",
+    "email": "contact@pharmacie-du-plateau.ci",
+    "description": "Pharmacie du Plateau est un établissement de santé reconnu à Sassandra, situé au quartier Centre-Ville. Notre équipe s'engage à offrir des soins de qualité, un accueil chaleureux et une prise en charge rapide, dans le respect des normes sanitaires en vigueur. Nous mettons un point d'honneur à accompagner chaque patient avec professionnalisme et bienveillance, au quotidien comme en situation d'urgence. ",
+    "latitude": 4.9455428785451785,
+    "longitude": -6.076029497085309,
+    "is_on_call": false,
+    "opening_hours": {
+      "Lundi - Vendredi": "08:00 - 20:00",
+      "Samedi": "09:00 - 18:00",
+      "Dimanche": "Garde (selon planning)"
+    },
+    "services": [
+      "Médicaments essentiels",
+      "Parapharmacie"
+    ],
+    "photo": "establishments/pharmacie-du-plateau-2-photo.jpg",
+    "manager": null,
+    "created_at": "2026-07-27T18:33:06.983Z",
+    "updated_at": "2026-07-27T18:33:06.983Z"
+  }
+},
+{
+  "model": "establishments.pharmacyguard",
+  "pk": 13,
+  "fields": {
+    "establishment": 21,
+    "start_date": "2026-07-27",
+    "end_date": "2026-08-03",
+    "notes": "Garde de nuit et week-end.",
+    "created_at": "2026-07-27T18:33:06.988Z"
+  }
+},
+{
+  "model": "establishments.review",
+  "pk": 32,
+  "fields": {
+    "establishment": 21,
+    "author_name": "Aya Koffi",
+    "rating": 3,
+    "comment": "Service satisfaisant, quelques améliorations possibles sur la communication.",
+    "created_at": "2026-07-27T18:33:06.990Z"
+  }
+},
+{
+  "model": "establishments.establishment",
+  "pk": 22,
+  "fields": {
+    "name": "Clinique de la Paix",
+    "type": "clinic",
+    "status": "approved",
+    "address": "Quartier Corridor, Sassandra",
+    "phone": "+225 07 56 27 18 20",
+    "email": "contact@clinique-de-la-paix.ci",
+    "description": "Clinique de la Paix est un établissement de santé reconnu à Sassandra, situé au quartier Corridor. Notre équipe s'engage à offrir des soins de qualité, un accueil chaleureux et une prise en charge rapide, dans le respect des normes sanitaires en vigueur. Nous mettons un point d'honneur à accompagner chaque patient avec professionnalisme et bienveillance, au quotidien comme en situation d'urgence. ",
+    "latitude": 4.961382942686025,
+    "longitude": -6.082704977153051,
+    "is_on_call": false,
+    "opening_hours": {
+      "Lundi - Vendredi": "08:00 - 20:00",
+      "Samedi": "09:00 - 18:00",
+      "Dimanche": "Fermé"
+    },
+    "services": [
+      "Gynécologie",
+      "Pédiatrie",
+      "Consultations sur rendez-vous"
+    ],
+    "photo": "establishments/clinique-de-la-paix-3-photo.jpg",
+    "manager": null,
+    "created_at": "2026-07-27T18:33:08.031Z",
+    "updated_at": "2026-07-27T18:33:08.031Z"
+  }
+},
+{
+  "model": "establishments.review",
+  "pk": 33,
+  "fields": {
+    "establishment": 22,
+    "author_name": "Jean-Marc Kouassi",
+    "rating": 5,
+    "comment": "Bon accueil, délai d'attente raisonnable.",
+    "created_at": "2026-07-27T18:33:08.099Z"
+  }
+},
+{
+  "model": "establishments.review",
+  "pk": 34,
+  "fields": {
+    "establishment": 22,
+    "author_name": "Jean-Marc Kouassi",
+    "rating": 5,
+    "comment": "Bon accueil, délai d'attente raisonnable.",
+    "created_at": "2026-07-27T18:33:08.101Z"
+  }
+},
+{
+  "model": "establishments.establishment",
+  "pk": 23,
+  "fields": {
+    "name": "Clinique Notre-Dame",
+    "type": "clinic",
+    "status": "approved",
+    "address": "Quartier Fanti, Sassandra",
+    "phone": "+225 07 28 15 84 34",
+    "email": "contact@clinique-notre-dame.ci",
+    "description": "Clinique Notre-Dame est un établissement de santé reconnu à Sassandra, situé au quartier Fanti. Notre équipe s'engage à offrir des soins de qualité, un accueil chaleureux et une prise en charge rapide, dans le respect des normes sanitaires en vigueur. Nous mettons un point d'honneur à accompagner chaque patient avec professionnalisme et bienveillance, au quotidien comme en situation d'urgence. Clinique Notre-Dame est un établissement de santé reconnu à Sassandra, situé au quartier Fanti. Notre équipe s'engage à offrir des soins de qualité, un accueil chaleureux et une prise en charge rapide, dans le respect des normes sanitaires en vigueur. Nous mettons un point d'honneur à accompagner chaque patient avec professionnalisme et bienveillance, au quotidien comme en situation d'urgence. ",
+    "latitude": 4.947206047190051,
+    "longitude": -6.0637231201204065,
+    "is_on_call": false,
+    "opening_hours": {
+      "Lundi - Vendredi": "08:00 - 20:00",
+      "Samedi": "09:00 - 18:00",
+      "Dimanche": "Fermé"
+    },
+    "services": [
+      "Médecine générale",
+      "Petite chirurgie",
+      "Maternité"
+    ],
+    "photo": "establishments/clinique-notre-dame-4-photo.jpg",
+    "manager": null,
+    "created_at": "2026-07-27T18:33:09.934Z",
+    "updated_at": "2026-07-27T18:33:09.934Z"
+  }
+},
+{
+  "model": "establishments.review",
+  "pk": 35,
+  "fields": {
+    "establishment": 23,
+    "author_name": "Ibrahim Traoré",
+    "rating": 4,
+    "comment": "Très professionnel, propreté irréprochable des locaux.",
+    "created_at": "2026-07-27T18:33:09.937Z"
+  }
+},
+{
+  "model": "establishments.review",
+  "pk": 36,
+  "fields": {
+    "establishment": 23,
+    "author_name": "Aya Koffi",
+    "rating": 4,
+    "comment": "Bon accueil, délai d'attente raisonnable.",
+    "created_at": "2026-07-27T18:33:09.940Z"
+  }
+},
+{
+  "model": "establishments.review",
+  "pk": 37,
+  "fields": {
+    "establishment": 23,
+    "author_name": "Jean-Marc Kouassi",
+    "rating": 3,
+    "comment": "Correct mais l'attente peut être longue en heure de pointe.",
+    "created_at": "2026-07-27T18:33:09.942Z"
+  }
+},
+{
+  "model": "establishments.establishment",
+  "pk": 24,
+  "fields": {
+    "name": "Hôpital Général de Sassandra",
+    "type": "hospital",
+    "status": "approved",
+    "address": "Quartier Bas-Sassandra, Sassandra",
+    "phone": "+225 07 80 34 56 83",
+    "email": "contact@hopital-general-de-sassandra.ci",
+    "description": "Hôpital Général de Sassandra est un établissement de santé reconnu à Sassandra, situé au quartier Bas-Sassandra. Notre équipe s'engage à offrir des soins de qualité, un accueil chaleureux et une prise en charge rapide, dans le respect des normes sanitaires en vigueur. Nous mettons un point d'honneur à accompagner chaque patient avec professionnalisme et bienveillance, au quotidien comme en situation d'urgence. ",
+    "latitude": 4.933464878724376,
+    "longitude": -6.094399719646,
+    "is_on_call": false,
+    "opening_hours": {
+      "Lundi - Vendredi": "08:00 - 20:00",
+      "Samedi": "09:00 - 18:00",
+      "Dimanche": "Fermé"
+    },
+    "services": [
+      "Urgences 24h/24",
+      "Chirurgie",
+      "Soins intensifs"
+    ],
+    "photo": "establishments/hopital-general-de-sassandra-5-photo.jpg",
+    "manager": null,
+    "created_at": "2026-07-27T18:33:11.097Z",
+    "updated_at": "2026-07-27T18:33:11.097Z"
+  }
+},
+{
+  "model": "establishments.review",
+  "pk": 38,
+  "fields": {
+    "establishment": 24,
+    "author_name": "Paul Gnahoré",
+    "rating": 4,
+    "comment": "Bon accueil, délai d'attente raisonnable.",
+    "created_at": "2026-07-27T18:33:11.102Z"
+  }
+},
+{
+  "model": "establishments.establishment",
+  "pk": 25,
+  "fields": {
+    "name": "Hôpital Militaire de Sassandra",
+    "type": "hospital",
+    "status": "approved",
+    "address": "Quartier Koko-Plage, Sassandra",
+    "phone": "+225 07 32 43 74 71",
+    "email": "contact@hopital-militaire-de-sassandra.ci",
+    "description": "Hôpital Militaire de Sassandra est un établissement de santé reconnu à Sassandra, situé au quartier Koko-Plage. Notre équipe s'engage à offrir des soins de qualité, un accueil chaleureux et une prise en charge rapide, dans le respect des normes sanitaires en vigueur. Nous mettons un point d'honneur à accompagner chaque patient avec professionnalisme et bienveillance, au quotidien comme en situation d'urgence. ",
+    "latitude": 4.943634019695359,
+    "longitude": -6.071463368406301,
+    "is_on_call": false,
+    "opening_hours": {
+      "Lundi - Vendredi": "08:00 - 20:00",
+      "Samedi": "09:00 - 18:00",
+      "Dimanche": "Fermé"
+    },
+    "services": [
+      "Urgences",
+      "Consultations spécialisées"
+    ],
+    "photo": "establishments/hopital-militaire-de-sassandra-6-photo.jpg",
+    "manager": null,
+    "created_at": "2026-07-27T18:33:12.561Z",
+    "updated_at": "2026-07-27T18:33:12.561Z"
+  }
+},
+{
+  "model": "establishments.review",
+  "pk": 39,
+  "fields": {
+    "establishment": 25,
+    "author_name": "Aya Koffi",
+    "rating": 5,
+    "comment": "Bon accueil, délai d'attente raisonnable.",
+    "created_at": "2026-07-27T18:33:12.564Z"
+  }
+},
+{
+  "model": "establishments.establishment",
+  "pk": 26,
+  "fields": {
+    "name": "Laboratoire d'Analyses Bio-Santé",
+    "type": "laboratory",
+    "status": "approved",
+    "address": "Quartier Plateau, Sassandra",
+    "phone": "+225 07 19 63 76 75",
+    "email": "contact@laboratoire-danalyses-bio-sante.ci",
+    "description": "Laboratoire d'Analyses Bio-Santé est un établissement de santé reconnu à Sassandra, situé au quartier Plateau. Notre équipe s'engage à offrir des soins de qualité, un accueil chaleureux et une prise en charge rapide, dans le respect des normes sanitaires en vigueur. Nous mettons un point d'honneur à accompagner chaque patient avec professionnalisme et bienveillance, au quotidien comme en situation d'urgence. ",
+    "latitude": 4.966636241051107,
+    "longitude": -6.093118927724735,
+    "is_on_call": false,
+    "opening_hours": {
+      "Lundi - Vendredi": "08:00 - 20:00",
+      "Samedi": "09:00 - 18:00",
+      "Dimanche": "Fermé"
+    },
+    "services": [
+      "Analyses biologiques",
+      "Prélèvements à domicile"
+    ],
+    "photo": "establishments/laboratoire-danalyses-bio-sante-7-photo.jpg",
+    "manager": null,
+    "created_at": "2026-07-27T18:33:13.718Z",
+    "updated_at": "2026-07-27T18:33:13.718Z"
+  }
+},
+{
+  "model": "establishments.review",
+  "pk": 40,
+  "fields": {
+    "establishment": 26,
+    "author_name": "Ibrahim Traoré",
+    "rating": 5,
+    "comment": "Personnel accueillant et prise en charge rapide. Je recommande.",
+    "created_at": "2026-07-27T18:33:13.767Z"
+  }
+},
+{
+  "model": "establishments.review",
+  "pk": 41,
+  "fields": {
+    "establishment": 26,
+    "author_name": "Paul Gnahoré",
+    "rating": 3,
+    "comment": "Service satisfaisant, quelques améliorations possibles sur la communication.",
+    "created_at": "2026-07-27T18:33:13.770Z"
+  }
+},
+{
+  "model": "establishments.review",
+  "pk": 42,
+  "fields": {
+    "establishment": 26,
+    "author_name": "Estelle Aka",
+    "rating": 3,
+    "comment": "Correct mais l'attente peut être longue en heure de pointe.",
+    "created_at": "2026-07-27T18:33:13.772Z"
+  }
+},
+{
+  "model": "establishments.establishment",
+  "pk": 27,
+  "fields": {
+    "name": "Laboratoire Central de Sassandra",
+    "type": "laboratory",
+    "status": "pending",
+    "address": "Quartier Port, Sassandra",
+    "phone": "+225 07 28 18 51 83",
+    "email": "contact@laboratoire-central-de-sassandra.ci",
+    "description": "Laboratoire Central de Sassandra est un établissement de santé reconnu à Sassandra, situé au quartier Port. Notre équipe s'engage à offrir des soins de qualité, un accueil chaleureux et une prise en charge rapide, dans le respect des normes sanitaires en vigueur. Nous mettons un point d'honneur à accompagner chaque patient avec professionnalisme et bienveillance, au quotidien comme en situation d'urgence. ",
+    "latitude": 4.946821363447624,
+    "longitude": -6.065606856699011,
+    "is_on_call": false,
+    "opening_hours": {
+      "Lundi - Vendredi": "08:00 - 20:00",
+      "Samedi": "09:00 - 18:00",
+      "Dimanche": "Fermé"
+    },
+    "services": [
+      "Analyses biologiques",
+      "Imagerie médicale"
+    ],
+    "photo": "establishments/laboratoire-central-de-sassandra-8-photo.jpg",
+    "manager": null,
+    "created_at": "2026-07-27T18:33:14.722Z",
+    "updated_at": "2026-07-27T18:33:14.722Z"
+  }
+},
+{
+  "model": "establishments.review",
+  "pk": 43,
+  "fields": {
+    "establishment": 27,
+    "author_name": "Estelle Aka",
+    "rating": 5,
+    "comment": "Personnel accueillant et prise en charge rapide. Je recommande.",
+    "created_at": "2026-07-27T18:33:14.725Z"
+  }
+},
+{
+  "model": "establishments.review",
+  "pk": 44,
+  "fields": {
+    "establishment": 27,
+    "author_name": "Marie Yao",
+    "rating": 5,
+    "comment": "Bon accueil, délai d'attente raisonnable.",
+    "created_at": "2026-07-27T18:33:14.728Z"
+  }
+}
+]
