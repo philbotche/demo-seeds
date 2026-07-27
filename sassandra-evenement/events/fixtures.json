@@ -1,0 +1,209 @@
+[
+{
+  "model": "accounts.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$rxqTG7HxKamQtzES1KmHor$nti49nEqbmwUK8qh729UUbqSp59gHyL38mP5OPczwU8=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "admin_sassandra",
+    "first_name": "Admin",
+    "last_name": "Sassandra",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-07-15T12:48:00.594Z",
+    "email": "admin@sassandra-events.ci",
+    "role": "admin",
+    "phone": null,
+    "marketing_consent": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$qbsnw9NTPMIk4rPx01F6k0$LfmfB1v/7UV6c9UNlRG1fE8YZtZ81oAMse4euh0MYxM=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "gestionnaire",
+    "first_name": "Kofi",
+    "last_name": "Kouassi",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-15T12:38:31.738Z",
+    "email": "gestionnaire@sassandra-events.ci",
+    "role": "manager",
+    "phone": null,
+    "marketing_consent": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$1IuimMbMEZvSzImd7Ke9Vp$fSKQctkkdRkPW+DU0AR0tF/tkrTK07q7s6wPOTzvVsk=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "organisatrice",
+    "first_name": "Aya",
+    "last_name": "Koffi",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-15T12:48:00.935Z",
+    "email": "organisatrice@sassandra-events.ci",
+    "role": "manager",
+    "phone": null,
+    "marketing_consent": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "events.event",
+  "pk": 26,
+  "fields": {
+    "name": "Festival des Lagunes",
+    "description": "Grand rassemblement musical au bord de la lagune : artistes locaux, food trucks et ambiance festive toute la soirée.",
+    "start_date": "2026-08-11T18:50:54.968Z",
+    "end_date": "2026-08-11T23:50:54.968Z",
+    "poster": "events/posters/festival-des-lagunes-0-poster.jpg",
+    "event_type": "free",
+    "price": "0",
+    "location": "Lagune de Sassandra",
+    "owner": 2,
+    "view_count": 1240,
+    "created_at": "2026-07-27T18:50:56.827Z",
+    "updated_at": "2026-07-27T18:50:56.827Z"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 27,
+  "fields": {
+    "name": "Nuit Électro Sassandra",
+    "description": "Une nuit électro sur la plage avec DJ sets internationaux et jeux de lumière face à l'océan.",
+    "start_date": "2026-08-18T18:50:54.968Z",
+    "end_date": "2026-08-19T00:50:54.968Z",
+    "poster": "events/posters/nuit-electro-sassandra-1-poster.jpg",
+    "event_type": "paid",
+    "price": "5000",
+    "location": "Plage de Sassandra",
+    "owner": 2,
+    "view_count": 890,
+    "created_at": "2026-07-27T18:50:58.015Z",
+    "updated_at": "2026-07-27T18:50:58.015Z"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 28,
+  "fields": {
+    "name": "Marché Artisanal Mensuel",
+    "description": "Artisans, producteurs locaux et créateurs se réunissent au centre-ville pour un marché convivial en plein air.",
+    "start_date": "2026-08-01T18:50:54.968Z",
+    "end_date": "2026-08-02T02:50:54.968Z",
+    "poster": "events/posters/marche-artisanal-mensuel-2-poster.jpg",
+    "event_type": "free",
+    "price": "0",
+    "location": "Centre-ville de Sassandra",
+    "owner": 6,
+    "view_count": 340,
+    "created_at": "2026-07-27T18:50:59.086Z",
+    "updated_at": "2026-07-27T18:50:59.086Z"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 29,
+  "fields": {
+    "name": "Soirée Jazz au Bord de Mer",
+    "description": "Dîner-concert intimiste avec un trio de jazz, face au coucher de soleil sur l'Atlantique.",
+    "start_date": "2026-08-26T18:50:54.968Z",
+    "end_date": "2026-08-26T22:50:54.968Z",
+    "poster": "events/posters/soiree-jazz-au-bord-de-mer-3-poster.jpg",
+    "event_type": "paid",
+    "price": "10000",
+    "location": "Hôtel Balnéaire de Sassandra",
+    "owner": 6,
+    "view_count": 502,
+    "created_at": "2026-07-27T18:51:00.167Z",
+    "updated_at": "2026-07-27T18:51:00.167Z"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 30,
+  "fields": {
+    "name": "Concert de Noël",
+    "description": "Concert caritatif de fin d'année réunissant chorales et artistes de la région pour clôturer l'année en musique.",
+    "start_date": "2026-07-07T18:50:54.968Z",
+    "end_date": "2026-07-07T21:50:54.968Z",
+    "poster": "events/posters/concert-de-noel-4-poster.jpg",
+    "event_type": "free",
+    "price": "0",
+    "location": "Plage de Sassandra",
+    "owner": 2,
+    "view_count": 2103,
+    "created_at": "2026-07-27T18:51:01.237Z",
+    "updated_at": "2026-07-27T18:51:01.237Z"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 31,
+  "fields": {
+    "name": "Régates de Sassandra",
+    "description": "Compétition de voile ouverte à tous les niveaux, suivie d'une remise des prix sur le port.",
+    "start_date": "2026-09-10T18:50:54.968Z",
+    "end_date": "2026-09-11T00:50:54.968Z",
+    "poster": "events/posters/regates-de-sassandra-5-poster.jpg",
+    "event_type": "free",
+    "price": "0",
+    "location": "Port de Sassandra",
+    "owner": 5,
+    "view_count": 178,
+    "created_at": "2026-07-27T18:51:02.490Z",
+    "updated_at": "2026-07-27T18:51:02.490Z"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 32,
+  "fields": {
+    "name": "Cérémonie du Nouvel An Ivoirien",
+    "description": "Cérémonie officielle organisée par la mairie pour célébrer le Nouvel An, en présence des autorités locales.",
+    "start_date": "2026-05-28T18:50:54.968Z",
+    "end_date": "2026-05-28T21:50:54.968Z",
+    "poster": "events/posters/ceremonie-du-nouvel-an-ivoirien-6-poster.jpg",
+    "event_type": "paid",
+    "price": "15000",
+    "location": "Mairie de Sassandra",
+    "owner": 5,
+    "view_count": 967,
+    "created_at": "2026-07-27T18:51:04.077Z",
+    "updated_at": "2026-07-27T18:51:04.077Z"
+  }
+},
+{
+  "model": "events.event",
+  "pk": 33,
+  "fields": {
+    "name": "Foire Gastronomique",
+    "description": "Dégustation des spécialités culinaires de la côte ivoirienne, ateliers cuisine et concours du meilleur attiéké.",
+    "start_date": "2026-08-06T18:50:54.968Z",
+    "end_date": "2026-08-07T01:50:54.968Z",
+    "poster": "events/posters/foire-gastronomique-7-poster.jpg",
+    "event_type": "free",
+    "price": "0",
+    "location": "Centre-ville de Sassandra",
+    "owner": 6,
+    "view_count": 615,
+    "created_at": "2026-07-27T18:51:05.569Z",
+    "updated_at": "2026-07-27T18:51:05.569Z"
+  }
+}
+]
