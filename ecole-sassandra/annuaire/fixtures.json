@@ -1,0 +1,2023 @@
+[
+{
+  "model": "accounts.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$jdm3KOqRDOJJSBFNTi9dXb$P/EefTdPf9fOwrEqFZ2rak25TACeSJwbmLZcBAfLbRI=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "parent_demo_1",
+    "first_name": "Aya",
+    "last_name": "Koffi",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-27T18:00:22.247Z",
+    "email": "parent_demo_1@example.com",
+    "role": "manager",
+    "phone": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$cMiQYIAW0BRCaFsZ0dRAUD$7xmf5uJVQQR1haD6vHZQZaLRU8EFglWL+4ECMScIa0Y=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "parent_demo_2",
+    "first_name": "Jean-Marc",
+    "last_name": "Kouassi",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-27T18:00:23.260Z",
+    "email": "parent_demo_2@example.com",
+    "role": "manager",
+    "phone": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$ROqmsLyZ8KvHRiqOlmLCTn$D3t6+gN/V1m9SIXclDlQzTea/SMGDbIcKNQ1/tQJSPU=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "parent_demo_3",
+    "first_name": "Estelle",
+    "last_name": "Aka",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-27T18:00:23.574Z",
+    "email": "parent_demo_3@example.com",
+    "role": "manager",
+    "phone": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$zYa9TvYyayrOvmPOCuByzs$tnlgC75Lz87x8MD4RnBWpLevKhYC89Z+ZtU/hOK+AlI=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "parent_demo_4",
+    "first_name": "Ibrahim",
+    "last_name": "Traoré",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-27T18:00:23.886Z",
+    "email": "parent_demo_4@example.com",
+    "role": "manager",
+    "phone": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$wOyHdX7vLTNCRShh9GuYLP$llnmE5npvjtX4S781ms2H9XCrv1w/YAYOZKWqomqicw=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "parent_demo_5",
+    "first_name": "Marie",
+    "last_name": "Yao",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-27T18:00:24.234Z",
+    "email": "parent_demo_5@example.com",
+    "role": "manager",
+    "phone": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "pk": 10,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$QdzFZFUfeB4qJETCrNhxZK$SZKk3KliNFlwtJxsHnJ417AGTGLKWRrYBtbRuLdBkhE=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "parent_demo_6",
+    "first_name": "Paul",
+    "last_name": "Gnahoré",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-27T18:00:24.542Z",
+    "email": "parent_demo_6@example.com",
+    "role": "manager",
+    "phone": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "pk": 11,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$tjr2zpqE5qrLpvOvc7hM4Y$aqJjnEs33GMcGlBTZGOraTpZosXs3UWYo3G/i0s9SDg=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "gestionnaire_demo",
+    "first_name": "Demo",
+    "last_name": "Gestionnaire Annuaire",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-27T18:00:24.853Z",
+    "email": "gestionnaire_demo@example.com",
+    "role": "manager",
+    "phone": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "annuaire.etablissement",
+  "pk": 12,
+  "fields": {
+    "nom": "EPP Sassandra Centre",
+    "slug": "epp-sassandra-centre",
+    "sigle": "",
+    "type": "prescolaire_primaire",
+    "statut": "public",
+    "logo": "etablissements/logos/epp-sassandra-centre-logo.jpg",
+    "cover": "etablissements/covers/epp-sassandra-centre-cover.jpg",
+    "presentation": "EPP Sassandra Centre est un établissement préscolaire / primaire reconnu à Sassandra, situé au quartier Plateau. L'équipe pédagogique accompagne les élèves dans un cadre studieux et bienveillant, avec des infrastructures adaptées à l'apprentissage et un suivi individualisé. Notre engagement : la rigueur, le respect et l'excellence académique, pour préparer chaque élève à la réussite de ses examens et à la suite de son parcours scolaire ou professionnel. EPP Sassandra Centre est un établissement préscolaire / primaire reconnu à Sassandra, situé au quartier Plateau. L'équipe pédagogique accompagne les élèves dans un cadre studieux et bienveillant, avec des infrastructures adaptées à l'apprentissage et un suivi individualisé. Notre engagement : la rigueur, le respect et l'excellence académique, pour préparer chaque élève à la réussite de ses examens et à la suite de son parcours scolaire ou professionnel. ",
+    "annee_creation": 1987,
+    "langues_enseignement": [
+      "Français"
+    ],
+    "adresse": "",
+    "quartier": "Plateau",
+    "latitude": 4.9412843603223555,
+    "longitude": -6.066624295619924,
+    "telephone": "+225 07 74 57 47 16",
+    "whatsapp": "+225 07 28 31 71 52",
+    "email": "contact@epp-sassandra-centre.ci",
+    "site_web": "",
+    "reseaux_sociaux": {},
+    "frais_min": null,
+    "frais_max": null,
+    "internat": true,
+    "cantine": true,
+    "transport": true,
+    "bibliotheque": true,
+    "salle_informatique": false,
+    "accessibilite_handicap": true,
+    "effectif_total": 158,
+    "effectif_moyen_par_classe": 26,
+    "nombre_enseignants": 24,
+    "statut_publication": "publie",
+    "nombre_vues": 0,
+    "created_at": "2026-07-27T18:02:25.238Z",
+    "updated_at": "2026-07-27T18:02:25.238Z"
+  }
+},
+{
+  "model": "annuaire.filiere",
+  "pk": 8,
+  "fields": {
+    "etablissement": 12,
+    "libelle": "Classes primaires",
+    "niveau_serie": "CP1 à CM2",
+    "diplome": "CEPE"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 24,
+  "fields": {
+    "etablissement": 12,
+    "annee_scolaire": "2023-2024",
+    "examen": "cepe",
+    "presentes": 104,
+    "admis": 86,
+    "badge_verifie": true,
+    "created_at": "2026-07-27T18:02:25.267Z",
+    "updated_at": "2026-07-27T18:02:25.267Z"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 25,
+  "fields": {
+    "etablissement": 12,
+    "annee_scolaire": "2024-2025",
+    "examen": "cepe",
+    "presentes": 151,
+    "admis": 83,
+    "badge_verifie": true,
+    "created_at": "2026-07-27T18:02:25.271Z",
+    "updated_at": "2026-07-27T18:02:25.271Z"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 26,
+  "fields": {
+    "etablissement": 12,
+    "annee_scolaire": "2025-2026",
+    "examen": "cepe",
+    "presentes": 147,
+    "admis": 98,
+    "badge_verifie": false,
+    "created_at": "2026-07-27T18:02:25.274Z",
+    "updated_at": "2026-07-27T18:02:25.274Z"
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 15,
+  "fields": {
+    "etablissement": 12,
+    "image": "etablissements/galerie/epp-sassandra-centre-galerie-0.jpg",
+    "legende": "",
+    "ordre": 0
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 16,
+  "fields": {
+    "etablissement": 12,
+    "image": "etablissements/galerie/epp-sassandra-centre-galerie-1.jpg",
+    "legende": "",
+    "ordre": 1
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 17,
+  "fields": {
+    "etablissement": 12,
+    "image": "etablissements/galerie/epp-sassandra-centre-galerie-2.jpg",
+    "legende": "",
+    "ordre": 2
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 18,
+  "fields": {
+    "etablissement": 12,
+    "image": "etablissements/galerie/epp-sassandra-centre-galerie-3.jpg",
+    "legende": "",
+    "ordre": 3
+  }
+},
+{
+  "model": "annuaire.avis",
+  "pk": 9,
+  "fields": {
+    "etablissement": 12,
+    "user": 5,
+    "note": 4,
+    "commentaire": "Bons résultats aux examens, infrastructures correctes.",
+    "statut_moderation": "approuve",
+    "motif_rejet": "",
+    "created_at": "2026-07-27T18:02:30.292Z",
+    "updated_at": "2026-07-27T18:02:30.292Z"
+  }
+},
+{
+  "model": "annuaire.gestionetablissement",
+  "pk": 7,
+  "fields": {
+    "user": 11,
+    "etablissement": 12,
+    "fonction": "directeur_fondateur",
+    "nom_contact": "Demo Gestionnaire Annuaire",
+    "telephone_contact": "+225 07 74 57 47 16",
+    "email_contact": "gestionnaire_demo@example.com",
+    "message": "",
+    "justificatif": "",
+    "statut": "approuve",
+    "motif_refus": "",
+    "created_at": "2026-07-27T18:02:30.297Z",
+    "updated_at": "2026-07-27T18:02:30.297Z"
+  }
+},
+{
+  "model": "annuaire.etablissement",
+  "pk": 13,
+  "fields": {
+    "nom": "École Maternelle Les Petits Anges",
+    "slug": "ecole-maternelle-les-petits-anges",
+    "sigle": "",
+    "type": "prescolaire_primaire",
+    "statut": "prive",
+    "logo": "etablissements/logos/ecole-maternelle-les-petits-anges-logo.jpg",
+    "cover": "etablissements/covers/ecole-maternelle-les-petits-anges-cover.jpg",
+    "presentation": "École Maternelle Les Petits Anges est un établissement préscolaire / primaire reconnu à Sassandra, situé au quartier Fanti. L'équipe pédagogique accompagne les élèves dans un cadre studieux et bienveillant, avec des infrastructures adaptées à l'apprentissage et un suivi individualisé. Notre engagement : la rigueur, le respect et l'excellence académique, pour préparer chaque élève à la réussite de ses examens et à la suite de son parcours scolaire ou professionnel. École Maternelle Les Petits Anges est un établissement préscolaire / primaire reconnu à Sassandra, situé au quartier Fanti. L'équipe pédagogique accompagne les élèves dans un cadre studieux et bienveillant, avec des infrastructures adaptées à l'apprentissage et un suivi individualisé. Notre engagement : la rigueur, le respect et l'excellence académique, pour préparer chaque élève à la réussite de ses examens et à la suite de son parcours scolaire ou professionnel. ",
+    "annee_creation": 1990,
+    "langues_enseignement": [
+      "Français"
+    ],
+    "adresse": "",
+    "quartier": "Fanti",
+    "latitude": 4.947006268607244,
+    "longitude": -6.09555285885704,
+    "telephone": "+225 07 52 96 22 12",
+    "whatsapp": "+225 07 79 23 69 24",
+    "email": "contact@ecole-maternelle-les-petits-anges.ci",
+    "site_web": "",
+    "reseaux_sociaux": {},
+    "frais_min": 75000,
+    "frais_max": 250000,
+    "internat": false,
+    "cantine": false,
+    "transport": false,
+    "bibliotheque": true,
+    "salle_informatique": true,
+    "accessibilite_handicap": false,
+    "effectif_total": 527,
+    "effectif_moyen_par_classe": 48,
+    "nombre_enseignants": 43,
+    "statut_publication": "publie",
+    "nombre_vues": 0,
+    "created_at": "2026-07-27T18:02:32.484Z",
+    "updated_at": "2026-07-27T18:02:32.484Z"
+  }
+},
+{
+  "model": "annuaire.filiere",
+  "pk": 9,
+  "fields": {
+    "etablissement": 13,
+    "libelle": "Classes maternelles",
+    "niveau_serie": "Petite à Grande Section",
+    "diplome": ""
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 27,
+  "fields": {
+    "etablissement": 13,
+    "annee_scolaire": "2023-2024",
+    "examen": "cepe",
+    "presentes": 68,
+    "admis": 57,
+    "badge_verifie": true,
+    "created_at": "2026-07-27T18:02:32.491Z",
+    "updated_at": "2026-07-27T18:02:32.491Z"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 28,
+  "fields": {
+    "etablissement": 13,
+    "annee_scolaire": "2024-2025",
+    "examen": "cepe",
+    "presentes": 81,
+    "admis": 59,
+    "badge_verifie": true,
+    "created_at": "2026-07-27T18:02:32.494Z",
+    "updated_at": "2026-07-27T18:02:32.494Z"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 29,
+  "fields": {
+    "etablissement": 13,
+    "annee_scolaire": "2025-2026",
+    "examen": "cepe",
+    "presentes": 72,
+    "admis": 56,
+    "badge_verifie": false,
+    "created_at": "2026-07-27T18:02:32.496Z",
+    "updated_at": "2026-07-27T18:02:32.496Z"
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 19,
+  "fields": {
+    "etablissement": 13,
+    "image": "etablissements/galerie/ecole-maternelle-les-petits-anges-galerie-0.jpg",
+    "legende": "",
+    "ordre": 0
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 20,
+  "fields": {
+    "etablissement": 13,
+    "image": "etablissements/galerie/ecole-maternelle-les-petits-anges-galerie-1.jpg",
+    "legende": "",
+    "ordre": 1
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 21,
+  "fields": {
+    "etablissement": 13,
+    "image": "etablissements/galerie/ecole-maternelle-les-petits-anges-galerie-2.jpg",
+    "legende": "",
+    "ordre": 2
+  }
+},
+{
+  "model": "annuaire.avis",
+  "pk": 10,
+  "fields": {
+    "etablissement": 13,
+    "user": 10,
+    "note": 5,
+    "commentaire": "Très bon encadrement, mon enfant a beaucoup progressé cette année.",
+    "statut_moderation": "approuve",
+    "motif_rejet": "",
+    "created_at": "2026-07-27T18:02:36.017Z",
+    "updated_at": "2026-07-27T18:02:36.017Z"
+  }
+},
+{
+  "model": "annuaire.avis",
+  "pk": 11,
+  "fields": {
+    "etablissement": 13,
+    "user": 8,
+    "note": 5,
+    "commentaire": "Très bon encadrement, mon enfant a beaucoup progressé cette année.",
+    "statut_moderation": "approuve",
+    "motif_rejet": "",
+    "created_at": "2026-07-27T18:02:36.020Z",
+    "updated_at": "2026-07-27T18:02:36.020Z"
+  }
+},
+{
+  "model": "annuaire.gestionetablissement",
+  "pk": 8,
+  "fields": {
+    "user": 11,
+    "etablissement": 13,
+    "fonction": "gestionnaire_administratif",
+    "nom_contact": "Demo Gestionnaire Annuaire",
+    "telephone_contact": "+225 07 52 96 22 12",
+    "email_contact": "gestionnaire_demo@example.com",
+    "message": "",
+    "justificatif": "",
+    "statut": "en_attente",
+    "motif_refus": "",
+    "created_at": "2026-07-27T18:02:36.023Z",
+    "updated_at": "2026-07-27T18:02:36.023Z"
+  }
+},
+{
+  "model": "annuaire.etablissement",
+  "pk": 14,
+  "fields": {
+    "nom": "Groupe Scolaire La Bergerie",
+    "slug": "groupe-scolaire-la-bergerie",
+    "sigle": "",
+    "type": "prescolaire_primaire",
+    "statut": "confessionnel",
+    "logo": "etablissements/logos/groupe-scolaire-la-bergerie-logo.jpg",
+    "cover": "etablissements/covers/groupe-scolaire-la-bergerie-cover.jpg",
+    "presentation": "Groupe Scolaire La Bergerie est un établissement préscolaire / primaire reconnu à Sassandra, situé au quartier Centre-ville. L'équipe pédagogique accompagne les élèves dans un cadre studieux et bienveillant, avec des infrastructures adaptées à l'apprentissage et un suivi individualisé. Notre engagement : la rigueur, le respect et l'excellence académique, pour préparer chaque élève à la réussite de ses examens et à la suite de son parcours scolaire ou professionnel. Groupe Scolaire La Bergerie est un établissement préscolaire / primaire reconnu à Sassandra, situé au quartier Centre-ville. L'équipe pédagogique accompagne les élèves dans un cadre studieux et bienveillant, avec des infrastructures adaptées à l'apprentissage et un suivi individualisé. Notre engagement : la rigueur, le respect et l'excellence académique, pour préparer chaque élève à la réussite de ses examens et à la suite de son parcours scolaire ou professionnel. ",
+    "annee_creation": 2004,
+    "langues_enseignement": [
+      "Français"
+    ],
+    "adresse": "",
+    "quartier": "Centre-ville",
+    "latitude": 4.95634013210195,
+    "longitude": -6.094782018755612,
+    "telephone": "+225 07 89 17 96 86",
+    "whatsapp": "+225 07 46 62 33 68",
+    "email": "contact@groupe-scolaire-la-bergerie.ci",
+    "site_web": "",
+    "reseaux_sociaux": {},
+    "frais_min": 100000,
+    "frais_max": 120000,
+    "internat": true,
+    "cantine": true,
+    "transport": false,
+    "bibliotheque": true,
+    "salle_informatique": false,
+    "accessibilite_handicap": true,
+    "effectif_total": 689,
+    "effectif_moyen_par_classe": 37,
+    "nombre_enseignants": 26,
+    "statut_publication": "publie",
+    "nombre_vues": 0,
+    "created_at": "2026-07-27T18:02:38.015Z",
+    "updated_at": "2026-07-27T18:02:38.015Z"
+  }
+},
+{
+  "model": "annuaire.filiere",
+  "pk": 10,
+  "fields": {
+    "etablissement": 14,
+    "libelle": "Classes primaires",
+    "niveau_serie": "CP1 à CM2",
+    "diplome": "CEPE"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 30,
+  "fields": {
+    "etablissement": 14,
+    "annee_scolaire": "2023-2024",
+    "examen": "cepe",
+    "presentes": 144,
+    "admis": 79,
+    "badge_verifie": true,
+    "created_at": "2026-07-27T18:02:38.022Z",
+    "updated_at": "2026-07-27T18:02:38.022Z"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 31,
+  "fields": {
+    "etablissement": 14,
+    "annee_scolaire": "2024-2025",
+    "examen": "cepe",
+    "presentes": 41,
+    "admis": 33,
+    "badge_verifie": true,
+    "created_at": "2026-07-27T18:02:38.025Z",
+    "updated_at": "2026-07-27T18:02:38.025Z"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 32,
+  "fields": {
+    "etablissement": 14,
+    "annee_scolaire": "2025-2026",
+    "examen": "cepe",
+    "presentes": 110,
+    "admis": 94,
+    "badge_verifie": false,
+    "created_at": "2026-07-27T18:02:38.027Z",
+    "updated_at": "2026-07-27T18:02:38.027Z"
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 22,
+  "fields": {
+    "etablissement": 14,
+    "image": "etablissements/galerie/groupe-scolaire-la-bergerie-galerie-0.jpg",
+    "legende": "",
+    "ordre": 0
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 23,
+  "fields": {
+    "etablissement": 14,
+    "image": "etablissements/galerie/groupe-scolaire-la-bergerie-galerie-1.jpg",
+    "legende": "",
+    "ordre": 1
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 24,
+  "fields": {
+    "etablissement": 14,
+    "image": "etablissements/galerie/groupe-scolaire-la-bergerie-galerie-2.jpg",
+    "legende": "",
+    "ordre": 2
+  }
+},
+{
+  "model": "annuaire.avis",
+  "pk": 12,
+  "fields": {
+    "etablissement": 14,
+    "user": 6,
+    "note": 3,
+    "commentaire": "Bon niveau général, quelques points à améliorer côté communication avec les parents.",
+    "statut_moderation": "approuve",
+    "motif_rejet": "",
+    "created_at": "2026-07-27T18:02:42.006Z",
+    "updated_at": "2026-07-27T18:02:42.006Z"
+  }
+},
+{
+  "model": "annuaire.avis",
+  "pk": 13,
+  "fields": {
+    "etablissement": 14,
+    "user": 10,
+    "note": 3,
+    "commentaire": "Bon niveau général, quelques points à améliorer côté communication avec les parents.",
+    "statut_moderation": "approuve",
+    "motif_rejet": "",
+    "created_at": "2026-07-27T18:02:42.009Z",
+    "updated_at": "2026-07-27T18:02:42.009Z"
+  }
+},
+{
+  "model": "annuaire.avis",
+  "pk": 14,
+  "fields": {
+    "etablissement": 14,
+    "user": 5,
+    "note": 5,
+    "commentaire": "Très bon encadrement, mon enfant a beaucoup progressé cette année.",
+    "statut_moderation": "approuve",
+    "motif_rejet": "",
+    "created_at": "2026-07-27T18:02:42.012Z",
+    "updated_at": "2026-07-27T18:02:42.012Z"
+  }
+},
+{
+  "model": "annuaire.etablissement",
+  "pk": 15,
+  "fields": {
+    "nom": "Collège Moderne de Sassandra",
+    "slug": "college-moderne-de-sassandra",
+    "sigle": "",
+    "type": "college",
+    "statut": "public",
+    "logo": "etablissements/logos/college-moderne-de-sassandra-logo.jpg",
+    "cover": "etablissements/covers/college-moderne-de-sassandra-cover.jpg",
+    "presentation": "Collège Moderne de Sassandra est un établissement collège reconnu à Sassandra, situé au quartier Corridor Sassandra. L'équipe pédagogique accompagne les élèves dans un cadre studieux et bienveillant, avec des infrastructures adaptées à l'apprentissage et un suivi individualisé. Notre engagement : la rigueur, le respect et l'excellence académique, pour préparer chaque élève à la réussite de ses examens et à la suite de son parcours scolaire ou professionnel. Collège Moderne de Sassandra est un établissement collège reconnu à Sassandra, situé au quartier Corridor Sassandra. L'équipe pédagogique accompagne les élèves dans un cadre studieux et bienveillant, avec des infrastructures adaptées à l'apprentissage et un suivi individualisé. Notre engagement : la rigueur, le respect et l'excellence académique, pour préparer chaque élève à la réussite de ses examens et à la suite de son parcours scolaire ou professionnel. ",
+    "annee_creation": 2004,
+    "langues_enseignement": [
+      "Français",
+      "Anglais"
+    ],
+    "adresse": "",
+    "quartier": "Corridor Sassandra",
+    "latitude": 4.968646937911343,
+    "longitude": -6.0626389392200934,
+    "telephone": "+225 07 89 97 20 42",
+    "whatsapp": "+225 07 87 55 52 83",
+    "email": "contact@college-moderne-de-sassandra.ci",
+    "site_web": "",
+    "reseaux_sociaux": {},
+    "frais_min": null,
+    "frais_max": null,
+    "internat": true,
+    "cantine": true,
+    "transport": false,
+    "bibliotheque": true,
+    "salle_informatique": false,
+    "accessibilite_handicap": false,
+    "effectif_total": 762,
+    "effectif_moyen_par_classe": 33,
+    "nombre_enseignants": 32,
+    "statut_publication": "publie",
+    "nombre_vues": 0,
+    "created_at": "2026-07-27T18:02:44.822Z",
+    "updated_at": "2026-07-27T18:02:44.822Z"
+  }
+},
+{
+  "model": "annuaire.filiere",
+  "pk": 11,
+  "fields": {
+    "etablissement": 15,
+    "libelle": "Enseignement général",
+    "niveau_serie": "6e à 3e",
+    "diplome": "BEPC"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 33,
+  "fields": {
+    "etablissement": 15,
+    "annee_scolaire": "2023-2024",
+    "examen": "bepc",
+    "presentes": 124,
+    "admis": 94,
+    "badge_verifie": true,
+    "created_at": "2026-07-27T18:02:44.831Z",
+    "updated_at": "2026-07-27T18:02:44.831Z"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 34,
+  "fields": {
+    "etablissement": 15,
+    "annee_scolaire": "2024-2025",
+    "examen": "bepc",
+    "presentes": 193,
+    "admis": 135,
+    "badge_verifie": true,
+    "created_at": "2026-07-27T18:02:44.835Z",
+    "updated_at": "2026-07-27T18:02:44.835Z"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 35,
+  "fields": {
+    "etablissement": 15,
+    "annee_scolaire": "2025-2026",
+    "examen": "bepc",
+    "presentes": 159,
+    "admis": 132,
+    "badge_verifie": false,
+    "created_at": "2026-07-27T18:02:44.838Z",
+    "updated_at": "2026-07-27T18:02:44.838Z"
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 25,
+  "fields": {
+    "etablissement": 15,
+    "image": "etablissements/galerie/college-moderne-de-sassandra-galerie-0.jpg",
+    "legende": "",
+    "ordre": 0
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 26,
+  "fields": {
+    "etablissement": 15,
+    "image": "etablissements/galerie/college-moderne-de-sassandra-galerie-1.jpg",
+    "legende": "",
+    "ordre": 1
+  }
+},
+{
+  "model": "annuaire.avis",
+  "pk": 15,
+  "fields": {
+    "etablissement": 15,
+    "user": 9,
+    "note": 5,
+    "commentaire": "Cadre agréable et discipline respectée. Satisfait dans l'ensemble.",
+    "statut_moderation": "approuve",
+    "motif_rejet": "",
+    "created_at": "2026-07-27T18:02:48.223Z",
+    "updated_at": "2026-07-27T18:02:48.223Z"
+  }
+},
+{
+  "model": "annuaire.avis",
+  "pk": 16,
+  "fields": {
+    "etablissement": 15,
+    "user": 7,
+    "note": 4,
+    "commentaire": "Équipe pédagogique sérieuse et disponible. Je recommande.",
+    "statut_moderation": "approuve",
+    "motif_rejet": "",
+    "created_at": "2026-07-27T18:02:48.226Z",
+    "updated_at": "2026-07-27T18:02:48.226Z"
+  }
+},
+{
+  "model": "annuaire.etablissement",
+  "pk": 16,
+  "fields": {
+    "nom": "Collège Notre-Dame de la Paix",
+    "slug": "college-notre-dame-de-la-paix",
+    "sigle": "",
+    "type": "college",
+    "statut": "confessionnel",
+    "logo": "etablissements/logos/college-notre-dame-de-la-paix-logo.jpg",
+    "cover": "etablissements/covers/college-notre-dame-de-la-paix-cover.jpg",
+    "presentation": "Collège Notre-Dame de la Paix est un établissement collège reconnu à Sassandra, situé au quartier Bas-Sassandra. L'équipe pédagogique accompagne les élèves dans un cadre studieux et bienveillant, avec des infrastructures adaptées à l'apprentissage et un suivi individualisé. Notre engagement : la rigueur, le respect et l'excellence académique, pour préparer chaque élève à la réussite de ses examens et à la suite de son parcours scolaire ou professionnel. Collège Notre-Dame de la Paix est un établissement collège reconnu à Sassandra, situé au quartier Bas-Sassandra. L'équipe pédagogique accompagne les élèves dans un cadre studieux et bienveillant, avec des infrastructures adaptées à l'apprentissage et un suivi individualisé. Notre engagement : la rigueur, le respect et l'excellence académique, pour préparer chaque élève à la réussite de ses examens et à la suite de son parcours scolaire ou professionnel. ",
+    "annee_creation": 1986,
+    "langues_enseignement": [
+      "Français",
+      "Anglais"
+    ],
+    "adresse": "",
+    "quartier": "Bas-Sassandra",
+    "latitude": 4.9559571705196035,
+    "longitude": -6.062454925979313,
+    "telephone": "+225 07 10 21 56 26",
+    "whatsapp": "+225 07 81 80 12 67",
+    "email": "contact@college-notre-dame-de-la-paix.ci",
+    "site_web": "",
+    "reseaux_sociaux": {},
+    "frais_min": 75000,
+    "frais_max": 120000,
+    "internat": true,
+    "cantine": true,
+    "transport": true,
+    "bibliotheque": true,
+    "salle_informatique": false,
+    "accessibilite_handicap": false,
+    "effectif_total": 422,
+    "effectif_moyen_par_classe": 51,
+    "nombre_enseignants": 23,
+    "statut_publication": "publie",
+    "nombre_vues": 0,
+    "created_at": "2026-07-27T18:02:51.199Z",
+    "updated_at": "2026-07-27T18:02:51.199Z"
+  }
+},
+{
+  "model": "annuaire.filiere",
+  "pk": 12,
+  "fields": {
+    "etablissement": 16,
+    "libelle": "Enseignement général",
+    "niveau_serie": "6e à 3e",
+    "diplome": "BEPC"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 36,
+  "fields": {
+    "etablissement": 16,
+    "annee_scolaire": "2023-2024",
+    "examen": "bepc",
+    "presentes": 114,
+    "admis": 75,
+    "badge_verifie": true,
+    "created_at": "2026-07-27T18:02:51.205Z",
+    "updated_at": "2026-07-27T18:02:51.205Z"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 37,
+  "fields": {
+    "etablissement": 16,
+    "annee_scolaire": "2024-2025",
+    "examen": "bepc",
+    "presentes": 97,
+    "admis": 80,
+    "badge_verifie": true,
+    "created_at": "2026-07-27T18:02:51.208Z",
+    "updated_at": "2026-07-27T18:02:51.208Z"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 38,
+  "fields": {
+    "etablissement": 16,
+    "annee_scolaire": "2025-2026",
+    "examen": "bepc",
+    "presentes": 127,
+    "admis": 94,
+    "badge_verifie": false,
+    "created_at": "2026-07-27T18:02:51.210Z",
+    "updated_at": "2026-07-27T18:02:51.210Z"
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 27,
+  "fields": {
+    "etablissement": 16,
+    "image": "etablissements/galerie/college-notre-dame-de-la-paix-galerie-0.jpg",
+    "legende": "",
+    "ordre": 0
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 28,
+  "fields": {
+    "etablissement": 16,
+    "image": "etablissements/galerie/college-notre-dame-de-la-paix-galerie-1.jpg",
+    "legende": "",
+    "ordre": 1
+  }
+},
+{
+  "model": "annuaire.avis",
+  "pk": 17,
+  "fields": {
+    "etablissement": 16,
+    "user": 10,
+    "note": 5,
+    "commentaire": "Équipe pédagogique sérieuse et disponible. Je recommande.",
+    "statut_moderation": "approuve",
+    "motif_rejet": "",
+    "created_at": "2026-07-27T18:02:53.815Z",
+    "updated_at": "2026-07-27T18:02:53.815Z"
+  }
+},
+{
+  "model": "annuaire.etablissement",
+  "pk": 17,
+  "fields": {
+    "nom": "Collège Municipal du Plateau",
+    "slug": "college-municipal-du-plateau",
+    "sigle": "",
+    "type": "college",
+    "statut": "public",
+    "logo": "etablissements/logos/college-municipal-du-plateau-logo.jpg",
+    "cover": "etablissements/covers/college-municipal-du-plateau-cover.jpg",
+    "presentation": "Collège Municipal du Plateau est un établissement collège reconnu à Sassandra, situé au quartier Koko-Plage. L'équipe pédagogique accompagne les élèves dans un cadre studieux et bienveillant, avec des infrastructures adaptées à l'apprentissage et un suivi individualisé. Notre engagement : la rigueur, le respect et l'excellence académique, pour préparer chaque élève à la réussite de ses examens et à la suite de son parcours scolaire ou professionnel. Collège Municipal du Plateau est un établissement collège reconnu à Sassandra, situé au quartier Koko-Plage. L'équipe pédagogique accompagne les élèves dans un cadre studieux et bienveillant, avec des infrastructures adaptées à l'apprentissage et un suivi individualisé. Notre engagement : la rigueur, le respect et l'excellence académique, pour préparer chaque élève à la réussite de ses examens et à la suite de son parcours scolaire ou professionnel. ",
+    "annee_creation": 2001,
+    "langues_enseignement": [
+      "Français",
+      "Anglais"
+    ],
+    "adresse": "",
+    "quartier": "Koko-Plage",
+    "latitude": 4.940705827829824,
+    "longitude": -6.070632383848031,
+    "telephone": "+225 07 23 38 38 95",
+    "whatsapp": "+225 07 20 94 67 85",
+    "email": "contact@college-municipal-du-plateau.ci",
+    "site_web": "",
+    "reseaux_sociaux": {},
+    "frais_min": null,
+    "frais_max": null,
+    "internat": false,
+    "cantine": true,
+    "transport": false,
+    "bibliotheque": true,
+    "salle_informatique": false,
+    "accessibilite_handicap": true,
+    "effectif_total": 554,
+    "effectif_moyen_par_classe": 49,
+    "nombre_enseignants": 18,
+    "statut_publication": "publie",
+    "nombre_vues": 0,
+    "created_at": "2026-07-27T18:02:57.136Z",
+    "updated_at": "2026-07-27T18:02:57.136Z"
+  }
+},
+{
+  "model": "annuaire.filiere",
+  "pk": 13,
+  "fields": {
+    "etablissement": 17,
+    "libelle": "Enseignement général",
+    "niveau_serie": "6e à 3e",
+    "diplome": "BEPC"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 39,
+  "fields": {
+    "etablissement": 17,
+    "annee_scolaire": "2023-2024",
+    "examen": "bepc",
+    "presentes": 81,
+    "admis": 69,
+    "badge_verifie": true,
+    "created_at": "2026-07-27T18:02:57.157Z",
+    "updated_at": "2026-07-27T18:02:57.157Z"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 40,
+  "fields": {
+    "etablissement": 17,
+    "annee_scolaire": "2024-2025",
+    "examen": "bepc",
+    "presentes": 137,
+    "admis": 103,
+    "badge_verifie": true,
+    "created_at": "2026-07-27T18:02:57.160Z",
+    "updated_at": "2026-07-27T18:02:57.161Z"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 41,
+  "fields": {
+    "etablissement": 17,
+    "annee_scolaire": "2025-2026",
+    "examen": "bepc",
+    "presentes": 182,
+    "admis": 165,
+    "badge_verifie": false,
+    "created_at": "2026-07-27T18:02:57.164Z",
+    "updated_at": "2026-07-27T18:02:57.164Z"
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 29,
+  "fields": {
+    "etablissement": 17,
+    "image": "etablissements/galerie/college-municipal-du-plateau-galerie-0.jpg",
+    "legende": "",
+    "ordre": 0
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 30,
+  "fields": {
+    "etablissement": 17,
+    "image": "etablissements/galerie/college-municipal-du-plateau-galerie-1.jpg",
+    "legende": "",
+    "ordre": 1
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 31,
+  "fields": {
+    "etablissement": 17,
+    "image": "etablissements/galerie/college-municipal-du-plateau-galerie-2.jpg",
+    "legende": "",
+    "ordre": 2
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 32,
+  "fields": {
+    "etablissement": 17,
+    "image": "etablissements/galerie/college-municipal-du-plateau-galerie-3.jpg",
+    "legende": "",
+    "ordre": 3
+  }
+},
+{
+  "model": "annuaire.avis",
+  "pk": 18,
+  "fields": {
+    "etablissement": 17,
+    "user": 10,
+    "note": 5,
+    "commentaire": "Cadre agréable et discipline respectée. Satisfait dans l'ensemble.",
+    "statut_moderation": "approuve",
+    "motif_rejet": "",
+    "created_at": "2026-07-27T18:03:02.483Z",
+    "updated_at": "2026-07-27T18:03:02.483Z"
+  }
+},
+{
+  "model": "annuaire.etablissement",
+  "pk": 18,
+  "fields": {
+    "nom": "Lycée Sainte-Marie",
+    "slug": "lycee-sainte-marie",
+    "sigle": "",
+    "type": "lycee",
+    "statut": "confessionnel",
+    "logo": "etablissements/logos/lycee-sainte-marie-logo.jpg",
+    "cover": "etablissements/covers/lycee-sainte-marie-cover.jpg",
+    "presentation": "Lycée Sainte-Marie est un établissement lycée reconnu à Sassandra, situé au quartier Niézéko. L'équipe pédagogique accompagne les élèves dans un cadre studieux et bienveillant, avec des infrastructures adaptées à l'apprentissage et un suivi individualisé. Notre engagement : la rigueur, le respect et l'excellence académique, pour préparer chaque élève à la réussite de ses examens et à la suite de son parcours scolaire ou professionnel. Lycée Sainte-Marie est un établissement lycée reconnu à Sassandra, situé au quartier Niézéko. L'équipe pédagogique accompagne les élèves dans un cadre studieux et bienveillant, avec des infrastructures adaptées à l'apprentissage et un suivi individualisé. Notre engagement : la rigueur, le respect et l'excellence académique, pour préparer chaque élève à la réussite de ses examens et à la suite de son parcours scolaire ou professionnel. ",
+    "annee_creation": 1989,
+    "langues_enseignement": [
+      "Français"
+    ],
+    "adresse": "",
+    "quartier": "Niézéko",
+    "latitude": 4.934499200149329,
+    "longitude": -6.090483474091027,
+    "telephone": "+225 07 68 11 97 15",
+    "whatsapp": "+225 07 38 85 39 78",
+    "email": "contact@lycee-sainte-marie.ci",
+    "site_web": "",
+    "reseaux_sociaux": {},
+    "frais_min": 100000,
+    "frais_max": 180000,
+    "internat": true,
+    "cantine": true,
+    "transport": false,
+    "bibliotheque": false,
+    "salle_informatique": false,
+    "accessibilite_handicap": false,
+    "effectif_total": 272,
+    "effectif_moyen_par_classe": 36,
+    "nombre_enseignants": 37,
+    "statut_publication": "publie",
+    "nombre_vues": 0,
+    "created_at": "2026-07-27T18:03:05.239Z",
+    "updated_at": "2026-07-27T18:03:05.239Z"
+  }
+},
+{
+  "model": "annuaire.filiere",
+  "pk": 14,
+  "fields": {
+    "etablissement": 18,
+    "libelle": "Série A",
+    "niveau_serie": "Terminale A",
+    "diplome": "BAC A"
+  }
+},
+{
+  "model": "annuaire.filiere",
+  "pk": 15,
+  "fields": {
+    "etablissement": 18,
+    "libelle": "Série D",
+    "niveau_serie": "Terminale D",
+    "diplome": "BAC D"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 42,
+  "fields": {
+    "etablissement": 18,
+    "annee_scolaire": "2023-2024",
+    "examen": "bac",
+    "presentes": 157,
+    "admis": 94,
+    "badge_verifie": true,
+    "created_at": "2026-07-27T18:03:05.250Z",
+    "updated_at": "2026-07-27T18:03:05.250Z"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 43,
+  "fields": {
+    "etablissement": 18,
+    "annee_scolaire": "2024-2025",
+    "examen": "bac",
+    "presentes": 128,
+    "admis": 119,
+    "badge_verifie": true,
+    "created_at": "2026-07-27T18:03:05.252Z",
+    "updated_at": "2026-07-27T18:03:05.252Z"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 44,
+  "fields": {
+    "etablissement": 18,
+    "annee_scolaire": "2025-2026",
+    "examen": "bac",
+    "presentes": 127,
+    "admis": 97,
+    "badge_verifie": false,
+    "created_at": "2026-07-27T18:03:05.255Z",
+    "updated_at": "2026-07-27T18:03:05.255Z"
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 33,
+  "fields": {
+    "etablissement": 18,
+    "image": "etablissements/galerie/lycee-sainte-marie-galerie-0.jpg",
+    "legende": "",
+    "ordre": 0
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 34,
+  "fields": {
+    "etablissement": 18,
+    "image": "etablissements/galerie/lycee-sainte-marie-galerie-1.jpg",
+    "legende": "",
+    "ordre": 1
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 35,
+  "fields": {
+    "etablissement": 18,
+    "image": "etablissements/galerie/lycee-sainte-marie-galerie-2.jpg",
+    "legende": "",
+    "ordre": 2
+  }
+},
+{
+  "model": "annuaire.avis",
+  "pk": 19,
+  "fields": {
+    "etablissement": 18,
+    "user": 5,
+    "note": 3,
+    "commentaire": "Bon niveau général, quelques points à améliorer côté communication avec les parents.",
+    "statut_moderation": "approuve",
+    "motif_rejet": "",
+    "created_at": "2026-07-27T18:03:09.016Z",
+    "updated_at": "2026-07-27T18:03:09.016Z"
+  }
+},
+{
+  "model": "annuaire.etablissement",
+  "pk": 19,
+  "fields": {
+    "nom": "Lycée Scientifique de la Nawa",
+    "slug": "lycee-scientifique-de-la-nawa",
+    "sigle": "",
+    "type": "lycee",
+    "statut": "public",
+    "logo": "etablissements/logos/lycee-scientifique-de-la-nawa-logo.jpg",
+    "cover": "etablissements/covers/lycee-scientifique-de-la-nawa-cover.jpg",
+    "presentation": "Lycée Scientifique de la Nawa est un établissement lycée reconnu à Sassandra, situé au quartier Gapé. L'équipe pédagogique accompagne les élèves dans un cadre studieux et bienveillant, avec des infrastructures adaptées à l'apprentissage et un suivi individualisé. Notre engagement : la rigueur, le respect et l'excellence académique, pour préparer chaque élève à la réussite de ses examens et à la suite de son parcours scolaire ou professionnel. Lycée Scientifique de la Nawa est un établissement lycée reconnu à Sassandra, situé au quartier Gapé. L'équipe pédagogique accompagne les élèves dans un cadre studieux et bienveillant, avec des infrastructures adaptées à l'apprentissage et un suivi individualisé. Notre engagement : la rigueur, le respect et l'excellence académique, pour préparer chaque élève à la réussite de ses examens et à la suite de son parcours scolaire ou professionnel. ",
+    "annee_creation": 1998,
+    "langues_enseignement": [
+      "Français"
+    ],
+    "adresse": "",
+    "quartier": "Gapé",
+    "latitude": 4.962343792734894,
+    "longitude": -6.062127023936053,
+    "telephone": "+225 07 77 23 88 45",
+    "whatsapp": "+225 07 66 32 56 11",
+    "email": "contact@lycee-scientifique-de-la-nawa.ci",
+    "site_web": "",
+    "reseaux_sociaux": {},
+    "frais_min": null,
+    "frais_max": null,
+    "internat": true,
+    "cantine": true,
+    "transport": true,
+    "bibliotheque": true,
+    "salle_informatique": true,
+    "accessibilite_handicap": false,
+    "effectif_total": 159,
+    "effectif_moyen_par_classe": 46,
+    "nombre_enseignants": 31,
+    "statut_publication": "publie",
+    "nombre_vues": 0,
+    "created_at": "2026-07-27T18:03:11.853Z",
+    "updated_at": "2026-07-27T18:03:11.853Z"
+  }
+},
+{
+  "model": "annuaire.filiere",
+  "pk": 16,
+  "fields": {
+    "etablissement": 19,
+    "libelle": "Série C",
+    "niveau_serie": "Terminale C",
+    "diplome": "BAC C"
+  }
+},
+{
+  "model": "annuaire.filiere",
+  "pk": 17,
+  "fields": {
+    "etablissement": 19,
+    "libelle": "Série D",
+    "niveau_serie": "Terminale D",
+    "diplome": "BAC D"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 45,
+  "fields": {
+    "etablissement": 19,
+    "annee_scolaire": "2023-2024",
+    "examen": "bac",
+    "presentes": 67,
+    "admis": 47,
+    "badge_verifie": true,
+    "created_at": "2026-07-27T18:03:11.862Z",
+    "updated_at": "2026-07-27T18:03:11.862Z"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 46,
+  "fields": {
+    "etablissement": 19,
+    "annee_scolaire": "2024-2025",
+    "examen": "bac",
+    "presentes": 172,
+    "admis": 151,
+    "badge_verifie": true,
+    "created_at": "2026-07-27T18:03:11.865Z",
+    "updated_at": "2026-07-27T18:03:11.865Z"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 47,
+  "fields": {
+    "etablissement": 19,
+    "annee_scolaire": "2025-2026",
+    "examen": "bac",
+    "presentes": 125,
+    "admis": 73,
+    "badge_verifie": false,
+    "created_at": "2026-07-27T18:03:11.868Z",
+    "updated_at": "2026-07-27T18:03:11.868Z"
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 36,
+  "fields": {
+    "etablissement": 19,
+    "image": "etablissements/galerie/lycee-scientifique-de-la-nawa-galerie-0.jpg",
+    "legende": "",
+    "ordre": 0
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 37,
+  "fields": {
+    "etablissement": 19,
+    "image": "etablissements/galerie/lycee-scientifique-de-la-nawa-galerie-1.jpg",
+    "legende": "",
+    "ordre": 1
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 38,
+  "fields": {
+    "etablissement": 19,
+    "image": "etablissements/galerie/lycee-scientifique-de-la-nawa-galerie-2.jpg",
+    "legende": "",
+    "ordre": 2
+  }
+},
+{
+  "model": "annuaire.avis",
+  "pk": 20,
+  "fields": {
+    "etablissement": 19,
+    "user": 6,
+    "note": 5,
+    "commentaire": "Très bon encadrement, mon enfant a beaucoup progressé cette année.",
+    "statut_moderation": "approuve",
+    "motif_rejet": "",
+    "created_at": "2026-07-27T18:03:15.295Z",
+    "updated_at": "2026-07-27T18:03:15.295Z"
+  }
+},
+{
+  "model": "annuaire.etablissement",
+  "pk": 20,
+  "fields": {
+    "nom": "Lycée Municipal de Sassandra",
+    "slug": "lycee-municipal-de-sassandra",
+    "sigle": "",
+    "type": "lycee",
+    "statut": "public",
+    "logo": "etablissements/logos/lycee-municipal-de-sassandra-logo.jpg",
+    "cover": "etablissements/covers/lycee-municipal-de-sassandra-cover.jpg",
+    "presentation": "Lycée Municipal de Sassandra est un établissement lycée reconnu à Sassandra, situé au quartier Dabeda. L'équipe pédagogique accompagne les élèves dans un cadre studieux et bienveillant, avec des infrastructures adaptées à l'apprentissage et un suivi individualisé. Notre engagement : la rigueur, le respect et l'excellence académique, pour préparer chaque élève à la réussite de ses examens et à la suite de son parcours scolaire ou professionnel. Lycée Municipal de Sassandra est un établissement lycée reconnu à Sassandra, situé au quartier Dabeda. L'équipe pédagogique accompagne les élèves dans un cadre studieux et bienveillant, avec des infrastructures adaptées à l'apprentissage et un suivi individualisé. Notre engagement : la rigueur, le respect et l'excellence académique, pour préparer chaque élève à la réussite de ses examens et à la suite de son parcours scolaire ou professionnel. ",
+    "annee_creation": 2004,
+    "langues_enseignement": [
+      "Français",
+      "Anglais"
+    ],
+    "adresse": "",
+    "quartier": "Dabeda",
+    "latitude": 4.95879770414636,
+    "longitude": -6.074477698426155,
+    "telephone": "+225 07 95 71 59 12",
+    "whatsapp": "+225 07 27 11 58 58",
+    "email": "contact@lycee-municipal-de-sassandra.ci",
+    "site_web": "",
+    "reseaux_sociaux": {},
+    "frais_min": null,
+    "frais_max": null,
+    "internat": false,
+    "cantine": true,
+    "transport": true,
+    "bibliotheque": true,
+    "salle_informatique": true,
+    "accessibilite_handicap": false,
+    "effectif_total": 670,
+    "effectif_moyen_par_classe": 40,
+    "nombre_enseignants": 25,
+    "statut_publication": "publie",
+    "nombre_vues": 0,
+    "created_at": "2026-07-27T18:03:17.397Z",
+    "updated_at": "2026-07-27T18:03:17.397Z"
+  }
+},
+{
+  "model": "annuaire.filiere",
+  "pk": 18,
+  "fields": {
+    "etablissement": 20,
+    "libelle": "Série A",
+    "niveau_serie": "Terminale A",
+    "diplome": "BAC A"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 48,
+  "fields": {
+    "etablissement": 20,
+    "annee_scolaire": "2023-2024",
+    "examen": "bac",
+    "presentes": 153,
+    "admis": 97,
+    "badge_verifie": true,
+    "created_at": "2026-07-27T18:03:17.405Z",
+    "updated_at": "2026-07-27T18:03:17.405Z"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 49,
+  "fields": {
+    "etablissement": 20,
+    "annee_scolaire": "2024-2025",
+    "examen": "bac",
+    "presentes": 73,
+    "admis": 44,
+    "badge_verifie": true,
+    "created_at": "2026-07-27T18:03:17.408Z",
+    "updated_at": "2026-07-27T18:03:17.408Z"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 50,
+  "fields": {
+    "etablissement": 20,
+    "annee_scolaire": "2025-2026",
+    "examen": "bac",
+    "presentes": 121,
+    "admis": 69,
+    "badge_verifie": false,
+    "created_at": "2026-07-27T18:03:17.411Z",
+    "updated_at": "2026-07-27T18:03:17.411Z"
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 39,
+  "fields": {
+    "etablissement": 20,
+    "image": "etablissements/galerie/lycee-municipal-de-sassandra-galerie-0.jpg",
+    "legende": "",
+    "ordre": 0
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 40,
+  "fields": {
+    "etablissement": 20,
+    "image": "etablissements/galerie/lycee-municipal-de-sassandra-galerie-1.jpg",
+    "legende": "",
+    "ordre": 1
+  }
+},
+{
+  "model": "annuaire.avis",
+  "pk": 21,
+  "fields": {
+    "etablissement": 20,
+    "user": 5,
+    "note": 4,
+    "commentaire": "Cadre agréable et discipline respectée. Satisfait dans l'ensemble.",
+    "statut_moderation": "approuve",
+    "motif_rejet": "",
+    "created_at": "2026-07-27T18:03:19.993Z",
+    "updated_at": "2026-07-27T18:03:19.993Z"
+  }
+},
+{
+  "model": "annuaire.avis",
+  "pk": 22,
+  "fields": {
+    "etablissement": 20,
+    "user": 6,
+    "note": 4,
+    "commentaire": "Équipe pédagogique sérieuse et disponible. Je recommande.",
+    "statut_moderation": "approuve",
+    "motif_rejet": "",
+    "created_at": "2026-07-27T18:03:19.995Z",
+    "updated_at": "2026-07-27T18:03:19.995Z"
+  }
+},
+{
+  "model": "annuaire.avis",
+  "pk": 23,
+  "fields": {
+    "etablissement": 20,
+    "user": 10,
+    "note": 4,
+    "commentaire": "Cadre agréable et discipline respectée. Satisfait dans l'ensemble.",
+    "statut_moderation": "approuve",
+    "motif_rejet": "",
+    "created_at": "2026-07-27T18:03:19.998Z",
+    "updated_at": "2026-07-27T18:03:19.998Z"
+  }
+},
+{
+  "model": "annuaire.etablissement",
+  "pk": 21,
+  "fields": {
+    "nom": "Lycée Technique et Professionnel de Sassandra",
+    "slug": "lycee-technique-et-professionnel-de-sassandra",
+    "sigle": "",
+    "type": "technique_professionnel",
+    "statut": "public",
+    "logo": "etablissements/logos/lycee-technique-et-professionnel-de-sassandra-logo.jpg",
+    "cover": "etablissements/covers/lycee-technique-et-professionnel-de-sassandra-cover.jpg",
+    "presentation": "Lycée Technique et Professionnel de Sassandra est un établissement technique / professionnel reconnu à Sassandra, situé au quartier Plateau. L'équipe pédagogique accompagne les élèves dans un cadre studieux et bienveillant, avec des infrastructures adaptées à l'apprentissage et un suivi individualisé. Notre engagement : la rigueur, le respect et l'excellence académique, pour préparer chaque élève à la réussite de ses examens et à la suite de son parcours scolaire ou professionnel. Lycée Technique et Professionnel de Sassandra est un établissement technique / professionnel reconnu à Sassandra, situé au quartier Plateau. L'équipe pédagogique accompagne les élèves dans un cadre studieux et bienveillant, avec des infrastructures adaptées à l'apprentissage et un suivi individualisé. Notre engagement : la rigueur, le respect et l'excellence académique, pour préparer chaque élève à la réussite de ses examens et à la suite de son parcours scolaire ou professionnel. ",
+    "annee_creation": 2009,
+    "langues_enseignement": [
+      "Français"
+    ],
+    "adresse": "",
+    "quartier": "Plateau",
+    "latitude": 4.954979337618364,
+    "longitude": -6.071282862693446,
+    "telephone": "+225 07 29 36 43 52",
+    "whatsapp": "+225 07 99 42 91 69",
+    "email": "contact@lycee-technique-et-professionnel-de-sassandra.ci",
+    "site_web": "",
+    "reseaux_sociaux": {},
+    "frais_min": null,
+    "frais_max": null,
+    "internat": false,
+    "cantine": true,
+    "transport": false,
+    "bibliotheque": true,
+    "salle_informatique": true,
+    "accessibilite_handicap": false,
+    "effectif_total": 635,
+    "effectif_moyen_par_classe": 42,
+    "nombre_enseignants": 30,
+    "statut_publication": "publie",
+    "nombre_vues": 0,
+    "created_at": "2026-07-27T18:03:22.412Z",
+    "updated_at": "2026-07-27T18:03:22.412Z"
+  }
+},
+{
+  "model": "annuaire.filiere",
+  "pk": 19,
+  "fields": {
+    "etablissement": 21,
+    "libelle": "Électrotechnique",
+    "niveau_serie": "",
+    "diplome": "BT"
+  }
+},
+{
+  "model": "annuaire.filiere",
+  "pk": 20,
+  "fields": {
+    "etablissement": 21,
+    "libelle": "Comptabilité",
+    "niveau_serie": "",
+    "diplome": "CAP"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 51,
+  "fields": {
+    "etablissement": 21,
+    "annee_scolaire": "2023-2024",
+    "examen": "cap",
+    "presentes": 189,
+    "admis": 176,
+    "badge_verifie": true,
+    "created_at": "2026-07-27T18:03:22.420Z",
+    "updated_at": "2026-07-27T18:03:22.420Z"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 52,
+  "fields": {
+    "etablissement": 21,
+    "annee_scolaire": "2023-2024",
+    "examen": "bt",
+    "presentes": 167,
+    "admis": 125,
+    "badge_verifie": true,
+    "created_at": "2026-07-27T18:03:22.423Z",
+    "updated_at": "2026-07-27T18:03:22.423Z"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 53,
+  "fields": {
+    "etablissement": 21,
+    "annee_scolaire": "2024-2025",
+    "examen": "cap",
+    "presentes": 40,
+    "admis": 26,
+    "badge_verifie": true,
+    "created_at": "2026-07-27T18:03:22.425Z",
+    "updated_at": "2026-07-27T18:03:22.425Z"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 54,
+  "fields": {
+    "etablissement": 21,
+    "annee_scolaire": "2024-2025",
+    "examen": "bt",
+    "presentes": 93,
+    "admis": 79,
+    "badge_verifie": true,
+    "created_at": "2026-07-27T18:03:22.427Z",
+    "updated_at": "2026-07-27T18:03:22.427Z"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 55,
+  "fields": {
+    "etablissement": 21,
+    "annee_scolaire": "2025-2026",
+    "examen": "cap",
+    "presentes": 116,
+    "admis": 102,
+    "badge_verifie": false,
+    "created_at": "2026-07-27T18:03:22.429Z",
+    "updated_at": "2026-07-27T18:03:22.429Z"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 56,
+  "fields": {
+    "etablissement": 21,
+    "annee_scolaire": "2025-2026",
+    "examen": "bt",
+    "presentes": 51,
+    "admis": 44,
+    "badge_verifie": false,
+    "created_at": "2026-07-27T18:03:22.432Z",
+    "updated_at": "2026-07-27T18:03:22.432Z"
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 41,
+  "fields": {
+    "etablissement": 21,
+    "image": "etablissements/galerie/lycee-technique-et-professionnel-de-sassandra-galerie-0.jpg",
+    "legende": "",
+    "ordre": 0
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 42,
+  "fields": {
+    "etablissement": 21,
+    "image": "etablissements/galerie/lycee-technique-et-professionnel-de-sassandra-galerie-1.jpg",
+    "legende": "",
+    "ordre": 1
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 43,
+  "fields": {
+    "etablissement": 21,
+    "image": "etablissements/galerie/lycee-technique-et-professionnel-de-sassandra-galerie-2.jpg",
+    "legende": "",
+    "ordre": 2
+  }
+},
+{
+  "model": "annuaire.avis",
+  "pk": 24,
+  "fields": {
+    "etablissement": 21,
+    "user": 6,
+    "note": 5,
+    "commentaire": "Très bon encadrement, mon enfant a beaucoup progressé cette année.",
+    "statut_moderation": "approuve",
+    "motif_rejet": "",
+    "created_at": "2026-07-27T18:03:26.840Z",
+    "updated_at": "2026-07-27T18:03:26.841Z"
+  }
+},
+{
+  "model": "annuaire.etablissement",
+  "pk": 22,
+  "fields": {
+    "nom": "Centre de Formation Professionnelle Saint-Joseph",
+    "slug": "centre-de-formation-professionnelle-saint-joseph",
+    "sigle": "",
+    "type": "technique_professionnel",
+    "statut": "confessionnel",
+    "logo": "etablissements/logos/centre-de-formation-professionnelle-saint-joseph-logo.jpg",
+    "cover": "etablissements/covers/centre-de-formation-professionnelle-saint-joseph-cover.jpg",
+    "presentation": "Centre de Formation Professionnelle Saint-Joseph est un établissement technique / professionnel reconnu à Sassandra, situé au quartier Fanti. L'équipe pédagogique accompagne les élèves dans un cadre studieux et bienveillant, avec des infrastructures adaptées à l'apprentissage et un suivi individualisé. Notre engagement : la rigueur, le respect et l'excellence académique, pour préparer chaque élève à la réussite de ses examens et à la suite de son parcours scolaire ou professionnel. Centre de Formation Professionnelle Saint-Joseph est un établissement technique / professionnel reconnu à Sassandra, situé au quartier Fanti. L'équipe pédagogique accompagne les élèves dans un cadre studieux et bienveillant, avec des infrastructures adaptées à l'apprentissage et un suivi individualisé. Notre engagement : la rigueur, le respect et l'excellence académique, pour préparer chaque élève à la réussite de ses examens et à la suite de son parcours scolaire ou professionnel. ",
+    "annee_creation": 1995,
+    "langues_enseignement": [
+      "Français"
+    ],
+    "adresse": "",
+    "quartier": "Fanti",
+    "latitude": 4.933395347181824,
+    "longitude": -6.093745199260232,
+    "telephone": "+225 07 17 55 27 95",
+    "whatsapp": "+225 07 58 88 24 28",
+    "email": "contact@centre-de-formation-professionnelle-saint-joseph.ci",
+    "site_web": "",
+    "reseaux_sociaux": {},
+    "frais_min": 75000,
+    "frais_max": 250000,
+    "internat": false,
+    "cantine": true,
+    "transport": false,
+    "bibliotheque": true,
+    "salle_informatique": true,
+    "accessibilite_handicap": false,
+    "effectif_total": 727,
+    "effectif_moyen_par_classe": 33,
+    "nombre_enseignants": 23,
+    "statut_publication": "publie",
+    "nombre_vues": 0,
+    "created_at": "2026-07-27T18:03:29.112Z",
+    "updated_at": "2026-07-27T18:03:29.112Z"
+  }
+},
+{
+  "model": "annuaire.filiere",
+  "pk": 21,
+  "fields": {
+    "etablissement": 22,
+    "libelle": "Hôtellerie",
+    "niveau_serie": "",
+    "diplome": "BEP"
+  }
+},
+{
+  "model": "annuaire.filiere",
+  "pk": 22,
+  "fields": {
+    "etablissement": 22,
+    "libelle": "Couture",
+    "niveau_serie": "",
+    "diplome": "CAP"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 57,
+  "fields": {
+    "etablissement": 22,
+    "annee_scolaire": "2023-2024",
+    "examen": "bep",
+    "presentes": 166,
+    "admis": 106,
+    "badge_verifie": true,
+    "created_at": "2026-07-27T18:03:29.120Z",
+    "updated_at": "2026-07-27T18:03:29.120Z"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 58,
+  "fields": {
+    "etablissement": 22,
+    "annee_scolaire": "2024-2025",
+    "examen": "bep",
+    "presentes": 49,
+    "admis": 33,
+    "badge_verifie": true,
+    "created_at": "2026-07-27T18:03:29.123Z",
+    "updated_at": "2026-07-27T18:03:29.123Z"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 59,
+  "fields": {
+    "etablissement": 22,
+    "annee_scolaire": "2025-2026",
+    "examen": "bep",
+    "presentes": 187,
+    "admis": 125,
+    "badge_verifie": false,
+    "created_at": "2026-07-27T18:03:29.126Z",
+    "updated_at": "2026-07-27T18:03:29.126Z"
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 44,
+  "fields": {
+    "etablissement": 22,
+    "image": "etablissements/galerie/centre-de-formation-professionnelle-saint-joseph-galerie-0.jpg",
+    "legende": "",
+    "ordre": 0
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 45,
+  "fields": {
+    "etablissement": 22,
+    "image": "etablissements/galerie/centre-de-formation-professionnelle-saint-joseph-galerie-1.jpg",
+    "legende": "",
+    "ordre": 1
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 46,
+  "fields": {
+    "etablissement": 22,
+    "image": "etablissements/galerie/centre-de-formation-professionnelle-saint-joseph-galerie-2.jpg",
+    "legende": "",
+    "ordre": 2
+  }
+},
+{
+  "model": "annuaire.avis",
+  "pk": 25,
+  "fields": {
+    "etablissement": 22,
+    "user": 6,
+    "note": 3,
+    "commentaire": "Bon niveau général, quelques points à améliorer côté communication avec les parents.",
+    "statut_moderation": "approuve",
+    "motif_rejet": "",
+    "created_at": "2026-07-27T18:03:32.970Z",
+    "updated_at": "2026-07-27T18:03:32.970Z"
+  }
+},
+{
+  "model": "annuaire.etablissement",
+  "pk": 23,
+  "fields": {
+    "nom": "Institut Supérieur de Sassandra",
+    "slug": "institut-superieur-de-sassandra",
+    "sigle": "",
+    "type": "universite_grande_ecole",
+    "statut": "prive",
+    "logo": "etablissements/logos/institut-superieur-de-sassandra-logo.jpg",
+    "cover": "etablissements/covers/institut-superieur-de-sassandra-cover.jpg",
+    "presentation": "Institut Supérieur de Sassandra est un établissement université / grande école reconnu à Sassandra, situé au quartier Centre-ville. L'équipe pédagogique accompagne les élèves dans un cadre studieux et bienveillant, avec des infrastructures adaptées à l'apprentissage et un suivi individualisé. Notre engagement : la rigueur, le respect et l'excellence académique, pour préparer chaque élève à la réussite de ses examens et à la suite de son parcours scolaire ou professionnel. Institut Supérieur de Sassandra est un établissement université / grande école reconnu à Sassandra, situé au quartier Centre-ville. L'équipe pédagogique accompagne les élèves dans un cadre studieux et bienveillant, avec des infrastructures adaptées à l'apprentissage et un suivi individualisé. Notre engagement : la rigueur, le respect et l'excellence académique, pour préparer chaque élève à la réussite de ses examens et à la suite de son parcours scolaire ou professionnel. ",
+    "annee_creation": 2004,
+    "langues_enseignement": [
+      "Français",
+      "Anglais"
+    ],
+    "adresse": "",
+    "quartier": "Centre-ville",
+    "latitude": 4.934001218159843,
+    "longitude": -6.090353246562688,
+    "telephone": "+225 07 36 88 26 21",
+    "whatsapp": "+225 07 72 94 18 23",
+    "email": "contact@institut-superieur-de-sassandra.ci",
+    "site_web": "",
+    "reseaux_sociaux": {},
+    "frais_min": 75000,
+    "frais_max": 180000,
+    "internat": false,
+    "cantine": true,
+    "transport": false,
+    "bibliotheque": true,
+    "salle_informatique": true,
+    "accessibilite_handicap": false,
+    "effectif_total": 678,
+    "effectif_moyen_par_classe": 45,
+    "nombre_enseignants": 26,
+    "statut_publication": "en_attente",
+    "nombre_vues": 0,
+    "created_at": "2026-07-27T18:03:35.297Z",
+    "updated_at": "2026-07-27T18:03:35.297Z"
+  }
+},
+{
+  "model": "annuaire.filiere",
+  "pk": 23,
+  "fields": {
+    "etablissement": 23,
+    "libelle": "Gestion des entreprises",
+    "niveau_serie": "Licence",
+    "diplome": "Licence"
+  }
+},
+{
+  "model": "annuaire.filiere",
+  "pk": 24,
+  "fields": {
+    "etablissement": 23,
+    "libelle": "Informatique",
+    "niveau_serie": "Licence",
+    "diplome": "Licence"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 60,
+  "fields": {
+    "etablissement": 23,
+    "annee_scolaire": "2023-2024",
+    "examen": "licence",
+    "presentes": 192,
+    "admis": 165,
+    "badge_verifie": true,
+    "created_at": "2026-07-27T18:03:35.306Z",
+    "updated_at": "2026-07-27T18:03:35.306Z"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 61,
+  "fields": {
+    "etablissement": 23,
+    "annee_scolaire": "2024-2025",
+    "examen": "licence",
+    "presentes": 115,
+    "admis": 65,
+    "badge_verifie": true,
+    "created_at": "2026-07-27T18:03:35.308Z",
+    "updated_at": "2026-07-27T18:03:35.308Z"
+  }
+},
+{
+  "model": "annuaire.resultat",
+  "pk": 62,
+  "fields": {
+    "etablissement": 23,
+    "annee_scolaire": "2025-2026",
+    "examen": "licence",
+    "presentes": 190,
+    "admis": 119,
+    "badge_verifie": false,
+    "created_at": "2026-07-27T18:03:35.310Z",
+    "updated_at": "2026-07-27T18:03:35.310Z"
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 47,
+  "fields": {
+    "etablissement": 23,
+    "image": "etablissements/galerie/institut-superieur-de-sassandra-galerie-0.jpg",
+    "legende": "",
+    "ordre": 0
+  }
+},
+{
+  "model": "annuaire.photo",
+  "pk": 48,
+  "fields": {
+    "etablissement": 23,
+    "image": "etablissements/galerie/institut-superieur-de-sassandra-galerie-1.jpg",
+    "legende": "",
+    "ordre": 1
+  }
+},
+{
+  "model": "annuaire.avis",
+  "pk": 26,
+  "fields": {
+    "etablissement": 23,
+    "user": 10,
+    "note": 3,
+    "commentaire": "Bon niveau général, quelques points à améliorer côté communication avec les parents.",
+    "statut_moderation": "approuve",
+    "motif_rejet": "",
+    "created_at": "2026-07-27T18:03:37.823Z",
+    "updated_at": "2026-07-27T18:03:37.823Z"
+  }
+},
+{
+  "model": "annuaire.avis",
+  "pk": 27,
+  "fields": {
+    "etablissement": 23,
+    "user": 8,
+    "note": 5,
+    "commentaire": "Cadre agréable et discipline respectée. Satisfait dans l'ensemble.",
+    "statut_moderation": "approuve",
+    "motif_rejet": "",
+    "created_at": "2026-07-27T18:03:37.826Z",
+    "updated_at": "2026-07-27T18:03:37.826Z"
+  }
+},
+{
+  "model": "annuaire.avis",
+  "pk": 28,
+  "fields": {
+    "etablissement": 23,
+    "user": 6,
+    "note": 3,
+    "commentaire": "Bon niveau général, quelques points à améliorer côté communication avec les parents.",
+    "statut_moderation": "en_attente",
+    "motif_rejet": "",
+    "created_at": "2026-07-27T18:03:37.829Z",
+    "updated_at": "2026-07-27T18:03:37.829Z"
+  }
+}
+]
