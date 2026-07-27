@@ -1,0 +1,904 @@
+[
+{
+  "model": "accounts.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$T2GO4Tv78K9pGKiIWQF50F$8uRA0nojpYa9AbHaHSIdzHuuYMN2ms8/XfW1utjMGCg=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "gerant_demo_1",
+    "first_name": "Aya",
+    "last_name": "Koffi",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-27T19:04:06.255Z",
+    "email": "gerant_demo_1@example.com",
+    "role": "manager",
+    "phone": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$iJQ5TM9NlWpYReYavgC7Rr$isaJZ8G5BQ4queLVC4iG3lSljpa7Fm8jy++S/rSwlPg=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "gerant_demo_2",
+    "first_name": "Jean-Marc",
+    "last_name": "Kouassi",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-27T19:04:06.577Z",
+    "email": "gerant_demo_2@example.com",
+    "role": "manager",
+    "phone": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$BJyeENzpINCyfdzxViZA08$e71pkzxYx15AuhvNlmjXQ24x2vFBuhzVtdy5SXwf/qg=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "gerant_demo_3",
+    "first_name": "Estelle",
+    "last_name": "Aka",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-27T19:04:06.871Z",
+    "email": "gerant_demo_3@example.com",
+    "role": "manager",
+    "phone": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "etablissements.establishment",
+  "pk": 7,
+  "fields": {
+    "gerant": 4,
+    "type": "hotel",
+    "nom": "Hôtel Le Balnéaire",
+    "lieu": "Quartier Plateau, Sassandra",
+    "numero_reservation": "0798176138",
+    "description": "Hôtel Le Balnéaire accueille sa clientèle au quartier Plateau à Sassandra, dans un cadre chaleureux et soigné. Notre équipe s'engage à offrir un service de qualité, dans le respect des traditions locales et avec le sourire. Une adresse incontournable pour découvrir l'hospitalité ivoirienne. Hôtel Le Balnéaire accueille sa clientèle au quartier Plateau à Sassandra, dans un cadre chaleureux et soigné. Notre équipe s'engage à offrir un service de qualité, dans le respect des traditions locales et avec le sourire. Une adresse incontournable pour découvrir l'hospitalité ivoirienne. ",
+    "latitude": 4.938871111765459,
+    "longitude": -6.0613683275903005,
+    "logo": "etablissements/logos/hotel-le-balneaire-0-logo.jpg",
+    "photo_couverture": "etablissements/couvertures/hotel-le-balneaire-0-cover.jpg",
+    "created_at": "2026-07-27T19:04:09.522Z",
+    "updated_at": "2026-07-27T19:04:09.522Z"
+  }
+},
+{
+  "model": "etablissements.chambre",
+  "pk": 4,
+  "fields": {
+    "establishment": 7,
+    "nom": "Chambre 1",
+    "prix": 20000,
+    "standing": 4,
+    "description": "Chambre confortable avec équipements modernes.",
+    "services": "[\"Wifi\", \"Vue mer\"]",
+    "created_at": "2026-07-27T19:04:09.528Z"
+  }
+},
+{
+  "model": "etablissements.chambrephoto",
+  "pk": 5,
+  "fields": {
+    "chambre": 4,
+    "image": "etablissements/chambres/hotel-le-balneaire-0-chambre-0.jpg",
+    "created_at": "2026-07-27T19:04:10.953Z"
+  }
+},
+{
+  "model": "etablissements.chambre",
+  "pk": 5,
+  "fields": {
+    "establishment": 7,
+    "nom": "Chambre 2",
+    "prix": 50000,
+    "standing": 5,
+    "description": "Chambre confortable avec équipements modernes.",
+    "services": "[\"Balcon\", \"Wifi\", \"Climatisation\"]",
+    "created_at": "2026-07-27T19:04:10.959Z"
+  }
+},
+{
+  "model": "etablissements.chambrephoto",
+  "pk": 6,
+  "fields": {
+    "chambre": 5,
+    "image": "etablissements/chambres/hotel-le-balneaire-0-chambre-1.jpg",
+    "created_at": "2026-07-27T19:04:12.160Z"
+  }
+},
+{
+  "model": "etablissements.establishment",
+  "pk": 8,
+  "fields": {
+    "gerant": 5,
+    "type": "residence",
+    "nom": "Résidence Les Cocotiers",
+    "lieu": "Quartier Fanti, Sassandra",
+    "numero_reservation": "0769367241",
+    "description": "Résidence Les Cocotiers accueille sa clientèle au quartier Fanti à Sassandra, dans un cadre chaleureux et soigné. Notre équipe s'engage à offrir un service de qualité, dans le respect des traditions locales et avec le sourire. Une adresse incontournable pour découvrir l'hospitalité ivoirienne. Résidence Les Cocotiers accueille sa clientèle au quartier Fanti à Sassandra, dans un cadre chaleureux et soigné. Notre équipe s'engage à offrir un service de qualité, dans le respect des traditions locales et avec le sourire. Une adresse incontournable pour découvrir l'hospitalité ivoirienne. ",
+    "latitude": 4.962806910099824,
+    "longitude": -6.090774527309641,
+    "logo": "etablissements/logos/residence-les-cocotiers-1-logo.jpg",
+    "photo_couverture": "etablissements/couvertures/residence-les-cocotiers-1-cover.jpg",
+    "created_at": "2026-07-27T19:04:14.373Z",
+    "updated_at": "2026-07-27T19:04:14.373Z"
+  }
+},
+{
+  "model": "etablissements.chambre",
+  "pk": 6,
+  "fields": {
+    "establishment": 8,
+    "nom": "Chambre 1",
+    "prix": 50000,
+    "standing": 5,
+    "description": "Chambre confortable avec équipements modernes.",
+    "services": "[\"Balcon\", \"Vue mer\"]",
+    "created_at": "2026-07-27T19:04:14.376Z"
+  }
+},
+{
+  "model": "etablissements.chambrephoto",
+  "pk": 7,
+  "fields": {
+    "chambre": 6,
+    "image": "etablissements/chambres/residence-les-cocotiers-1-chambre-0.jpg",
+    "created_at": "2026-07-27T19:04:16.118Z"
+  }
+},
+{
+  "model": "etablissements.chambre",
+  "pk": 7,
+  "fields": {
+    "establishment": 8,
+    "nom": "Chambre 2",
+    "prix": 25000,
+    "standing": 4,
+    "description": "Chambre confortable avec équipements modernes.",
+    "services": "[\"Balcon\", \"Wifi\", \"Vue mer\"]",
+    "created_at": "2026-07-27T19:04:16.121Z"
+  }
+},
+{
+  "model": "etablissements.chambrephoto",
+  "pk": 8,
+  "fields": {
+    "chambre": 7,
+    "image": "etablissements/chambres/residence-les-cocotiers-1-chambre-1.jpg",
+    "created_at": "2026-07-27T19:04:17.192Z"
+  }
+},
+{
+  "model": "etablissements.chambre",
+  "pk": 8,
+  "fields": {
+    "establishment": 8,
+    "nom": "Chambre 3",
+    "prix": 15000,
+    "standing": 4,
+    "description": "Chambre confortable avec équipements modernes.",
+    "services": "[\"Balcon\", \"Wifi\", \"Climatisation\"]",
+    "created_at": "2026-07-27T19:04:17.260Z"
+  }
+},
+{
+  "model": "etablissements.chambrephoto",
+  "pk": 9,
+  "fields": {
+    "chambre": 8,
+    "image": "etablissements/chambres/residence-les-cocotiers-1-chambre-2.jpg",
+    "created_at": "2026-07-27T19:04:19.120Z"
+  }
+},
+{
+  "model": "etablissements.establishment",
+  "pk": 9,
+  "fields": {
+    "gerant": 6,
+    "type": "restaurant",
+    "nom": "Restaurant Le Lagon",
+    "lieu": "Quartier Port, Sassandra",
+    "numero_reservation": "0729720791",
+    "description": "Restaurant Le Lagon accueille sa clientèle au quartier Port à Sassandra, dans un cadre chaleureux et soigné. Notre équipe s'engage à offrir un service de qualité, dans le respect des traditions locales et avec le sourire. Une adresse incontournable pour découvrir l'hospitalité ivoirienne. Restaurant Le Lagon accueille sa clientèle au quartier Port à Sassandra, dans un cadre chaleureux et soigné. Notre équipe s'engage à offrir un service de qualité, dans le respect des traditions locales et avec le sourire. Une adresse incontournable pour découvrir l'hospitalité ivoirienne. ",
+    "latitude": 4.931325147418383,
+    "longitude": -6.090611168889406,
+    "logo": "etablissements/logos/restaurant-le-lagon-2-logo.jpg",
+    "photo_couverture": "etablissements/couvertures/restaurant-le-lagon-2-cover.jpg",
+    "created_at": "2026-07-27T19:04:21.753Z",
+    "updated_at": "2026-07-27T19:04:21.753Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitem",
+  "pk": 9,
+  "fields": {
+    "establishment": 9,
+    "nom": "Attiéké poisson",
+    "prix": 3000,
+    "description": "Attiéké poisson, préparé selon la tradition locale.",
+    "tags": "[\"Fait maison\", \"Épicé\"]",
+    "created_at": "2026-07-27T19:04:21.759Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitemphoto",
+  "pk": 2,
+  "fields": {
+    "item": 9,
+    "image": "etablissements/items/restaurant-le-lagon-2-item-0.jpg",
+    "created_at": "2026-07-27T19:04:23.030Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitem",
+  "pk": 10,
+  "fields": {
+    "establishment": 9,
+    "nom": "Garba",
+    "prix": 500,
+    "description": "Garba, préparé selon la tradition locale.",
+    "tags": "[\"Spécialité locale\", \"Épicé\"]",
+    "created_at": "2026-07-27T19:04:23.037Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitemphoto",
+  "pk": 3,
+  "fields": {
+    "item": 10,
+    "image": "etablissements/items/restaurant-le-lagon-2-item-1.jpg",
+    "created_at": "2026-07-27T19:04:24.233Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitem",
+  "pk": 11,
+  "fields": {
+    "establishment": 9,
+    "nom": "Kedjenou de poulet",
+    "prix": 500,
+    "description": "Kedjenou de poulet, préparé selon la tradition locale.",
+    "tags": "[\"Fait maison\", \"Spécialité locale\"]",
+    "created_at": "2026-07-27T19:04:24.236Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitemphoto",
+  "pk": 4,
+  "fields": {
+    "item": 11,
+    "image": "etablissements/items/restaurant-le-lagon-2-item-2.jpg",
+    "created_at": "2026-07-27T19:04:25.605Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitem",
+  "pk": 12,
+  "fields": {
+    "establishment": 9,
+    "nom": "Alloco",
+    "prix": 2000,
+    "description": "Alloco, préparé selon la tradition locale.",
+    "tags": "[\"Grillade\", \"Fait maison\"]",
+    "created_at": "2026-07-27T19:04:25.671Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitemphoto",
+  "pk": 5,
+  "fields": {
+    "item": 12,
+    "image": "etablissements/items/restaurant-le-lagon-2-item-3.jpg",
+    "created_at": "2026-07-27T19:04:26.745Z"
+  }
+},
+{
+  "model": "etablissements.establishment",
+  "pk": 10,
+  "fields": {
+    "gerant": 4,
+    "type": "restaurant",
+    "nom": "Restaurant Chez Tantie Aya",
+    "lieu": "Quartier Centre-ville, Sassandra",
+    "numero_reservation": "0778786119",
+    "description": "Restaurant Chez Tantie Aya accueille sa clientèle au quartier Centre-ville à Sassandra, dans un cadre chaleureux et soigné. Notre équipe s'engage à offrir un service de qualité, dans le respect des traditions locales et avec le sourire. Une adresse incontournable pour découvrir l'hospitalité ivoirienne. ",
+    "latitude": 4.9448085106856405,
+    "longitude": -6.081751020353773,
+    "logo": "etablissements/logos/restaurant-chez-tantie-aya-3-logo.jpg",
+    "photo_couverture": "etablissements/couvertures/restaurant-chez-tantie-aya-3-cover.jpg",
+    "created_at": "2026-07-27T19:04:29.995Z",
+    "updated_at": "2026-07-27T19:04:29.995Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitem",
+  "pk": 13,
+  "fields": {
+    "establishment": 10,
+    "nom": "Attiéké poisson",
+    "prix": 1500,
+    "description": "Attiéké poisson, préparé selon la tradition locale.",
+    "tags": "[\"Fait maison\", \"Spécialité locale\"]",
+    "created_at": "2026-07-27T19:04:30.063Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitemphoto",
+  "pk": 6,
+  "fields": {
+    "item": 13,
+    "image": "etablissements/items/restaurant-chez-tantie-aya-3-item-0.jpg",
+    "created_at": "2026-07-27T19:04:31.535Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitem",
+  "pk": 14,
+  "fields": {
+    "establishment": 10,
+    "nom": "Garba",
+    "prix": 1500,
+    "description": "Garba, préparé selon la tradition locale.",
+    "tags": "[\"Spécialité locale\", \"Fait maison\"]",
+    "created_at": "2026-07-27T19:04:31.538Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitemphoto",
+  "pk": 7,
+  "fields": {
+    "item": 14,
+    "image": "etablissements/items/restaurant-chez-tantie-aya-3-item-1.jpg",
+    "created_at": "2026-07-27T19:04:32.717Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitem",
+  "pk": 15,
+  "fields": {
+    "establishment": 10,
+    "nom": "Kedjenou de poulet",
+    "prix": 500,
+    "description": "Kedjenou de poulet, préparé selon la tradition locale.",
+    "tags": "[\"Grillade\", \"Épicé\"]",
+    "created_at": "2026-07-27T19:04:32.722Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitemphoto",
+  "pk": 8,
+  "fields": {
+    "item": 15,
+    "image": "etablissements/items/restaurant-chez-tantie-aya-3-item-2.jpg",
+    "created_at": "2026-07-27T19:04:33.897Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitem",
+  "pk": 16,
+  "fields": {
+    "establishment": 10,
+    "nom": "Alloco",
+    "prix": 1000,
+    "description": "Alloco, préparé selon la tradition locale.",
+    "tags": "[\"Fait maison\", \"Grillade\"]",
+    "created_at": "2026-07-27T19:04:33.901Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitemphoto",
+  "pk": 9,
+  "fields": {
+    "item": 16,
+    "image": "etablissements/items/restaurant-chez-tantie-aya-3-item-3.jpg",
+    "created_at": "2026-07-27T19:04:35.078Z"
+  }
+},
+{
+  "model": "etablissements.establishment",
+  "pk": 11,
+  "fields": {
+    "gerant": 5,
+    "type": "bar",
+    "nom": "Bar Le Phare",
+    "lieu": "Quartier Corridor, Sassandra",
+    "numero_reservation": "0779529918",
+    "description": "Bar Le Phare accueille sa clientèle au quartier Corridor à Sassandra, dans un cadre chaleureux et soigné. Notre équipe s'engage à offrir un service de qualité, dans le respect des traditions locales et avec le sourire. Une adresse incontournable pour découvrir l'hospitalité ivoirienne. Bar Le Phare accueille sa clientèle au quartier Corridor à Sassandra, dans un cadre chaleureux et soigné. Notre équipe s'engage à offrir un service de qualité, dans le respect des traditions locales et avec le sourire. Une adresse incontournable pour découvrir l'hospitalité ivoirienne. ",
+    "latitude": 4.959778881233601,
+    "longitude": -6.076757289700069,
+    "logo": "etablissements/logos/bar-le-phare-4-logo.jpg",
+    "photo_couverture": "etablissements/couvertures/bar-le-phare-4-cover.jpg",
+    "created_at": "2026-07-27T19:04:37.076Z",
+    "updated_at": "2026-07-27T19:04:37.076Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitem",
+  "pk": 17,
+  "fields": {
+    "establishment": 11,
+    "nom": "Attiéké poisson",
+    "prix": 500,
+    "description": "Attiéké poisson, préparé selon la tradition locale.",
+    "tags": "[\"Grillade\", \"Épicé\"]",
+    "created_at": "2026-07-27T19:04:37.142Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitemphoto",
+  "pk": 10,
+  "fields": {
+    "item": 17,
+    "image": "etablissements/items/bar-le-phare-4-item-0.jpg",
+    "created_at": "2026-07-27T19:04:38.267Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitem",
+  "pk": 18,
+  "fields": {
+    "establishment": 11,
+    "nom": "Garba",
+    "prix": 1000,
+    "description": "Garba, préparé selon la tradition locale.",
+    "tags": "[\"Grillade\", \"Spécialité locale\"]",
+    "created_at": "2026-07-27T19:04:38.273Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitemphoto",
+  "pk": 11,
+  "fields": {
+    "item": 18,
+    "image": "etablissements/items/bar-le-phare-4-item-1.jpg",
+    "created_at": "2026-07-27T19:04:39.614Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitem",
+  "pk": 19,
+  "fields": {
+    "establishment": 11,
+    "nom": "Kedjenou de poulet",
+    "prix": 500,
+    "description": "Kedjenou de poulet, préparé selon la tradition locale.",
+    "tags": "[\"Fait maison\", \"Grillade\"]",
+    "created_at": "2026-07-27T19:04:39.619Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitemphoto",
+  "pk": 12,
+  "fields": {
+    "item": 19,
+    "image": "etablissements/items/bar-le-phare-4-item-2.jpg",
+    "created_at": "2026-07-27T19:04:40.945Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitem",
+  "pk": 20,
+  "fields": {
+    "establishment": 11,
+    "nom": "Alloco",
+    "prix": 2000,
+    "description": "Alloco, préparé selon la tradition locale.",
+    "tags": "[\"Grillade\", \"Fait maison\"]",
+    "created_at": "2026-07-27T19:04:40.950Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitemphoto",
+  "pk": 13,
+  "fields": {
+    "item": 20,
+    "image": "etablissements/items/bar-le-phare-4-item-3.jpg",
+    "created_at": "2026-07-27T19:04:42.006Z"
+  }
+},
+{
+  "model": "etablissements.establishment",
+  "pk": 12,
+  "fields": {
+    "gerant": 6,
+    "type": "maquis",
+    "nom": "Maquis Le Bon Coin",
+    "lieu": "Quartier Koko-Plage, Sassandra",
+    "numero_reservation": "0788121011",
+    "description": "Maquis Le Bon Coin accueille sa clientèle au quartier Koko-Plage à Sassandra, dans un cadre chaleureux et soigné. Notre équipe s'engage à offrir un service de qualité, dans le respect des traditions locales et avec le sourire. Une adresse incontournable pour découvrir l'hospitalité ivoirienne. Maquis Le Bon Coin accueille sa clientèle au quartier Koko-Plage à Sassandra, dans un cadre chaleureux et soigné. Notre équipe s'engage à offrir un service de qualité, dans le respect des traditions locales et avec le sourire. Une adresse incontournable pour découvrir l'hospitalité ivoirienne. ",
+    "latitude": 4.935578127041586,
+    "longitude": -6.081083968556356,
+    "logo": "etablissements/logos/maquis-le-bon-coin-5-logo.jpg",
+    "photo_couverture": "etablissements/couvertures/maquis-le-bon-coin-5-cover.jpg",
+    "created_at": "2026-07-27T19:04:44.242Z",
+    "updated_at": "2026-07-27T19:04:44.242Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitem",
+  "pk": 21,
+  "fields": {
+    "establishment": 12,
+    "nom": "Bandji",
+    "prix": 2000,
+    "description": "Bandji, préparé selon la tradition locale.",
+    "tags": "[\"Fraîche\", \"Artisanale\"]",
+    "created_at": "2026-07-27T19:04:44.270Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitemphoto",
+  "pk": 14,
+  "fields": {
+    "item": 21,
+    "image": "etablissements/items/maquis-le-bon-coin-5-item-0.jpg",
+    "created_at": "2026-07-27T19:04:45.299Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitem",
+  "pk": 22,
+  "fields": {
+    "establishment": 12,
+    "nom": "Bissap",
+    "prix": 2000,
+    "description": "Bissap, préparé selon la tradition locale.",
+    "tags": "[\"Artisanale\", \"Locale\"]",
+    "created_at": "2026-07-27T19:04:45.302Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitemphoto",
+  "pk": 15,
+  "fields": {
+    "item": 22,
+    "image": "etablissements/items/maquis-le-bon-coin-5-item-1.jpg",
+    "created_at": "2026-07-27T19:04:46.330Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitem",
+  "pk": 23,
+  "fields": {
+    "establishment": 12,
+    "nom": "Gingembre",
+    "prix": 2000,
+    "description": "Gingembre, préparé selon la tradition locale.",
+    "tags": "[\"Artisanale\", \"Locale\"]",
+    "created_at": "2026-07-27T19:04:46.335Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitemphoto",
+  "pk": 16,
+  "fields": {
+    "item": 23,
+    "image": "etablissements/items/maquis-le-bon-coin-5-item-2.jpg",
+    "created_at": "2026-07-27T19:04:47.400Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitem",
+  "pk": 24,
+  "fields": {
+    "establishment": 12,
+    "nom": "Jus de baobab",
+    "prix": 1000,
+    "description": "Jus de baobab, préparé selon la tradition locale.",
+    "tags": "[\"Fraîche\", \"Locale\"]",
+    "created_at": "2026-07-27T19:04:47.405Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitemphoto",
+  "pk": 17,
+  "fields": {
+    "item": 24,
+    "image": "etablissements/items/maquis-le-bon-coin-5-item-3.jpg",
+    "created_at": "2026-07-27T19:04:48.423Z"
+  }
+},
+{
+  "model": "etablissements.establishment",
+  "pk": 13,
+  "fields": {
+    "gerant": 4,
+    "type": "maquis",
+    "nom": "Maquis Chez Fatou",
+    "lieu": "Quartier Bas-Sassandra, Sassandra",
+    "numero_reservation": "0733761407",
+    "description": "Maquis Chez Fatou accueille sa clientèle au quartier Bas-Sassandra à Sassandra, dans un cadre chaleureux et soigné. Notre équipe s'engage à offrir un service de qualité, dans le respect des traditions locales et avec le sourire. Une adresse incontournable pour découvrir l'hospitalité ivoirienne. Maquis Chez Fatou accueille sa clientèle au quartier Bas-Sassandra à Sassandra, dans un cadre chaleureux et soigné. Notre équipe s'engage à offrir un service de qualité, dans le respect des traditions locales et avec le sourire. Une adresse incontournable pour découvrir l'hospitalité ivoirienne. ",
+    "latitude": 4.96362091058818,
+    "longitude": -6.068465223923963,
+    "logo": "etablissements/logos/maquis-chez-fatou-6-logo.jpg",
+    "photo_couverture": "etablissements/couvertures/maquis-chez-fatou-6-cover.jpg",
+    "created_at": "2026-07-27T19:04:51.079Z",
+    "updated_at": "2026-07-27T19:04:51.079Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitem",
+  "pk": 25,
+  "fields": {
+    "establishment": 13,
+    "nom": "Bandji",
+    "prix": 500,
+    "description": "Bandji, préparé selon la tradition locale.",
+    "tags": "[\"Locale\", \"Artisanale\"]",
+    "created_at": "2026-07-27T19:04:51.082Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitemphoto",
+  "pk": 18,
+  "fields": {
+    "item": 25,
+    "image": "etablissements/items/maquis-chez-fatou-6-item-0.jpg",
+    "created_at": "2026-07-27T19:04:52.180Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitem",
+  "pk": 26,
+  "fields": {
+    "establishment": 13,
+    "nom": "Bissap",
+    "prix": 2000,
+    "description": "Bissap, préparé selon la tradition locale.",
+    "tags": "[\"Artisanale\", \"Locale\"]",
+    "created_at": "2026-07-27T19:04:52.196Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitemphoto",
+  "pk": 19,
+  "fields": {
+    "item": 26,
+    "image": "etablissements/items/maquis-chez-fatou-6-item-1.jpg",
+    "created_at": "2026-07-27T19:04:53.271Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitem",
+  "pk": 27,
+  "fields": {
+    "establishment": 13,
+    "nom": "Gingembre",
+    "prix": 3000,
+    "description": "Gingembre, préparé selon la tradition locale.",
+    "tags": "[\"Locale\", \"Artisanale\"]",
+    "created_at": "2026-07-27T19:04:53.278Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitemphoto",
+  "pk": 20,
+  "fields": {
+    "item": 27,
+    "image": "etablissements/items/maquis-chez-fatou-6-item-2.jpg",
+    "created_at": "2026-07-27T19:04:54.387Z"
+  }
+},
+{
+  "model": "etablissements.establishment",
+  "pk": 14,
+  "fields": {
+    "gerant": 5,
+    "type": "bistro",
+    "nom": "Bistro L'Escale",
+    "lieu": "Quartier Niézéko, Sassandra",
+    "numero_reservation": "0723328039",
+    "description": "Bistro L'Escale accueille sa clientèle au quartier Niézéko à Sassandra, dans un cadre chaleureux et soigné. Notre équipe s'engage à offrir un service de qualité, dans le respect des traditions locales et avec le sourire. Une adresse incontournable pour découvrir l'hospitalité ivoirienne. Bistro L'Escale accueille sa clientèle au quartier Niézéko à Sassandra, dans un cadre chaleureux et soigné. Notre équipe s'engage à offrir un service de qualité, dans le respect des traditions locales et avec le sourire. Une adresse incontournable pour découvrir l'hospitalité ivoirienne. ",
+    "latitude": 4.940387176034839,
+    "longitude": -6.096502715150237,
+    "logo": "etablissements/logos/bistro-lescale-7-logo.jpg",
+    "photo_couverture": "etablissements/couvertures/bistro-lescale-7-cover.jpg",
+    "created_at": "2026-07-27T19:04:56.735Z",
+    "updated_at": "2026-07-27T19:04:56.735Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitem",
+  "pk": 28,
+  "fields": {
+    "establishment": 14,
+    "nom": "Bandji",
+    "prix": 1000,
+    "description": "Bandji, préparé selon la tradition locale.",
+    "tags": "[\"Locale\", \"Fraîche\"]",
+    "created_at": "2026-07-27T19:04:56.739Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitemphoto",
+  "pk": 21,
+  "fields": {
+    "item": 28,
+    "image": "etablissements/items/bistro-lescale-7-item-0.jpg",
+    "created_at": "2026-07-27T19:04:57.754Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitem",
+  "pk": 29,
+  "fields": {
+    "establishment": 14,
+    "nom": "Bissap",
+    "prix": 500,
+    "description": "Bissap, préparé selon la tradition locale.",
+    "tags": "[\"Fraîche\", \"Locale\"]",
+    "created_at": "2026-07-27T19:04:57.759Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitemphoto",
+  "pk": 22,
+  "fields": {
+    "item": 29,
+    "image": "etablissements/items/bistro-lescale-7-item-1.jpg",
+    "created_at": "2026-07-27T19:04:59.059Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitem",
+  "pk": 30,
+  "fields": {
+    "establishment": 14,
+    "nom": "Gingembre",
+    "prix": 500,
+    "description": "Gingembre, préparé selon la tradition locale.",
+    "tags": "[\"Locale\", \"Artisanale\"]",
+    "created_at": "2026-07-27T19:04:59.062Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitemphoto",
+  "pk": 23,
+  "fields": {
+    "item": 30,
+    "image": "etablissements/items/bistro-lescale-7-item-2.jpg",
+    "created_at": "2026-07-27T19:05:00.030Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitem",
+  "pk": 31,
+  "fields": {
+    "establishment": 14,
+    "nom": "Jus de baobab",
+    "prix": 1500,
+    "description": "Jus de baobab, préparé selon la tradition locale.",
+    "tags": "[\"Fraîche\", \"Locale\"]",
+    "created_at": "2026-07-27T19:05:00.097Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitemphoto",
+  "pk": 24,
+  "fields": {
+    "item": 31,
+    "image": "etablissements/items/bistro-lescale-7-item-3.jpg",
+    "created_at": "2026-07-27T19:05:01.163Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitem",
+  "pk": 32,
+  "fields": {
+    "establishment": 14,
+    "nom": "Bière locale",
+    "prix": 3000,
+    "description": "Bière locale, préparé selon la tradition locale.",
+    "tags": "[\"Locale\", \"Artisanale\"]",
+    "created_at": "2026-07-27T19:05:01.167Z"
+  }
+},
+{
+  "model": "etablissements.establishmentitemphoto",
+  "pk": 25,
+  "fields": {
+    "item": 32,
+    "image": "etablissements/items/bistro-lescale-7-item-4.jpg",
+    "created_at": "2026-07-27T19:05:02.113Z"
+  }
+},
+{
+  "model": "etablissements.establishment",
+  "pk": 15,
+  "fields": {
+    "gerant": 6,
+    "type": "hotel",
+    "nom": "Hôtel Les Palmiers",
+    "lieu": "Quartier Plateau, Sassandra",
+    "numero_reservation": "0731456944",
+    "description": "Hôtel Les Palmiers accueille sa clientèle au quartier Plateau à Sassandra, dans un cadre chaleureux et soigné. Notre équipe s'engage à offrir un service de qualité, dans le respect des traditions locales et avec le sourire. Une adresse incontournable pour découvrir l'hospitalité ivoirienne. Hôtel Les Palmiers accueille sa clientèle au quartier Plateau à Sassandra, dans un cadre chaleureux et soigné. Notre équipe s'engage à offrir un service de qualité, dans le respect des traditions locales et avec le sourire. Une adresse incontournable pour découvrir l'hospitalité ivoirienne. ",
+    "latitude": 4.962750240960139,
+    "longitude": -6.09551812108649,
+    "logo": "etablissements/logos/hotel-les-palmiers-8-logo.jpg",
+    "photo_couverture": "etablissements/couvertures/hotel-les-palmiers-8-cover.jpg",
+    "created_at": "2026-07-27T19:05:04.169Z",
+    "updated_at": "2026-07-27T19:05:04.169Z"
+  }
+},
+{
+  "model": "etablissements.chambre",
+  "pk": 9,
+  "fields": {
+    "establishment": 15,
+    "nom": "Chambre 1",
+    "prix": 15000,
+    "standing": 5,
+    "description": "Chambre confortable avec équipements modernes.",
+    "services": "[\"Balcon\", \"Vue mer\", \"Wifi\", \"Climatisation\"]",
+    "created_at": "2026-07-27T19:05:04.172Z"
+  }
+},
+{
+  "model": "etablissements.chambrephoto",
+  "pk": 10,
+  "fields": {
+    "chambre": 9,
+    "image": "etablissements/chambres/hotel-les-palmiers-8-chambre-0.jpg",
+    "created_at": "2026-07-27T19:05:05.213Z"
+  }
+},
+{
+  "model": "etablissements.chambre",
+  "pk": 10,
+  "fields": {
+    "establishment": 15,
+    "nom": "Chambre 2",
+    "prix": 50000,
+    "standing": 5,
+    "description": "Chambre confortable avec équipements modernes.",
+    "services": "[\"Vue mer\", \"Balcon\", \"Petit-déjeuner inclus\", \"Wifi\"]",
+    "created_at": "2026-07-27T19:05:05.280Z"
+  }
+},
+{
+  "model": "etablissements.chambrephoto",
+  "pk": 11,
+  "fields": {
+    "chambre": 10,
+    "image": "etablissements/chambres/hotel-les-palmiers-8-chambre-1.jpg",
+    "created_at": "2026-07-27T19:05:06.432Z"
+  }
+},
+{
+  "model": "etablissements.chambre",
+  "pk": 11,
+  "fields": {
+    "establishment": 15,
+    "nom": "Chambre 3",
+    "prix": 20000,
+    "standing": 3,
+    "description": "Chambre confortable avec équipements modernes.",
+    "services": "[\"Climatisation\", \"Petit-déjeuner inclus\", \"Vue mer\", \"Balcon\"]",
+    "created_at": "2026-07-27T19:05:06.435Z"
+  }
+},
+{
+  "model": "etablissements.chambrephoto",
+  "pk": 12,
+  "fields": {
+    "chambre": 11,
+    "image": "etablissements/chambres/hotel-les-palmiers-8-chambre-2.jpg",
+    "created_at": "2026-07-27T19:05:07.406Z"
+  }
+}
+]
